@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Emanuel Huber - Current and past research in geosciences</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="base.css">
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<!-- include Cycle plugin -->
+	<script type="text/javascript" src="js/jquery.cycle.all_min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('.slideshow').cycle({
+			fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			speed:  3000,
+			next:   '.slideshow',
+			random: 1
+		});
+		
+		//Lorsque vous cliquez sur un lien de la classe poplight et que le href commence par #
+		$('a.poplight[href^=#]').click(function() {
+			var popClass = $(this).attr('class'); //Trouver la pop-up correspondante
+			var popID = popClass.split(' ')[1];		// split la class "poplight div_class"
+			var popURL = $(this).attr('href'); //Retrouver la largeur dans le href
+
+			//Récupérer les variables depuis le lien
+			var query= popURL.split('?');
+			var dim= query[1].split('&amp;');
+			var popWidth = dim[0].split('=')[1]; //La première valeur du lien
+
+			//Faire apparaitre la pop-up et ajouter le bouton de fermeture
+			$('#' + popID).fadeIn().css({
+				'width': Number(popWidth)
+			})
+			.prepend('<a href="#" class="close"><img src="img/close_pop.png" class="btn_close" title="close" alt="close" /></a>');
+
+			//Récupération du margin, qui permettra de centrer la fenêtre - on ajuste de 80px en conformité avec le CSS
+			var popMargTop = ($('#' + popID).height() + 80) / 2;
+			var popMargLeft = ($('#' + popID).width() + 80) / 2;
+
+			//On affecte le margin
+			$('#' + popID).css({
+				'margin-top' : -popMargTop,
+				'margin-left' : -popMargLeft
+			});
+
+			//Effet fade-in du fond opaque
+			$('body').append('<div id="fade"></div>'); //Ajout du fond opaque noir
+			//Apparition du fond - .css({'filter' : 'alpha(opacity=80)'}) pour corriger les bogues de IE
+			$('#fade').css({'filter' : 'alpha(opacity=10)'}).fadeIn();
+
+			return false;
+		});
+
+		//Fermeture de la pop-up et du fond
+		$('a.close, #fade').live('click', function() { //Au clic sur le bouton ou sur le calque...
+			$('#fade , .popup_block').fadeOut(function() {
+				$('#fade, a.close').remove();  //...ils disparaissent ensemble
+			});
+			return false;
+		});
+
+	});
+	</script>
+	<meta name="description" content="Personal website of Emanuel Huber - Current and past research: uncertainty quantification in hydrogeology, subsurface heterogeneity of coarse braided river systems (using ground-penetrating radar, morphological observation and conceptual knowledge).">
+	<meta name="keywords" content="Hydrogeology, ground-penetrating radar, braided river, uncertainty">
+	<meta name="author" content="Emanuel Huber">
+</head>
+
+ <body>
+
+	<div id="container">
+		<header>
+			<!-- <div id="logo">
+				Emanuel Huber
+			</div> -->
+			<div class="slideshow">
+				<img src="img/gpr_960_200.jpg" alt="GPR survey on the Tagliamento River bed (northeast Italy)" width="960" height="200">
+				<img src="img/gpr_survey_960_200.jpg" alt="GPR survey on Tagliamento River bed (northeast Italy)" width="960" height="200">
+				<img src="img/gpr2_960_200.jpg" alt="GPR survey on Tagliamento River bed (northeast Italy)" width="960" height="200">
+				<img src="img/morphology_tagliamento_960_200.jpg" alt="Tagliamento River bed (northeast Italy)" width="960" height="200">
+				<img src="img/openframework_bimodal_960_200.jpg" alt="Gravel carry exposure" width="960" height="200">
+				<img src="img/sediment_tagliamento_960_200.jpg" alt="Sediments of the Tagliamento River (northeast Italy)" width="960" height="200">
+				<img src="img/slip_face_lobes_960_200.jpg" alt="Tagliamento River bed (northeast Italy)" width="960" height="200">
+				<img src="img/stone_960_200.jpg" alt="Tagliamento River bed (northeast Italy)" width="960" height="200">
+				<img src="img/stones_960_200.jpg" alt="Tagliamento River bed (northeast Italy)" width="960" height="200">
+				<img src="img/subsurfaceflow_960_200.jpg" alt="Subsurface flow and transport simulation through a scour-fill" width="960" height="200">
+				<img src="img/tagliamento1_960_200.jpg" alt="Tagliamento River (northeast Italy)" width="960" height="200">
+				<img src="img/tagliamento2_960_200.jpg" alt="Tagliamento River (northeast Italy)" width="960" height="200">
+				<img src="img/wood_stone_960_200.jpg" alt="Tagliamento River (northeast Italy)" width="960" height="200">
+			</div>
+		</header>
+		<nav>	
+			<ul id="navigation">
+			  <li><a href="index.html" title="Home">Home</a></li>
+			  <li><a href="research.html" title="Research" class="accessed">Research</a></li>
+			  <li><a href="publications.html" title="Publications">Publications</a></li>
+			  <li><a href="education.html" title="Education">Education</a></li>
+			</ul>
+		</nav>	
+		<!-- <div id="main"> -->
+			<div id="content">
+				<h1>Current main projects</h1>
+				<article>
+				<div class="pub">
+					<h2>Uncertainty quantification in subsurface flow forecast problems</h2>
+					<p class="authors"></p>
+					<p class="journal">Stanford University</p>
+					<a href="#?w=700" class="poplight popup_uncertainty">more&hellip;</a>
+					<div id="popup_uncertainty" class="popup_block">
+						<h2>Uncertainty quantification in subsurface flow forecast problems</h2>
+						<p class="authors"></p>
+						<p class="journal">Stanford University</p>
+						<p class="description">This project aims to quantify uncertainty in groundwater flow forecast 
+						models by accounting not only for uncertain geological models but also for uncertain boundary 
+						conditions, data and simulation-data relationship. 
+						Stochastic models of these sources of uncertainty will be developed and integrated into a Bayesian framework.</p>
+						<p class="description">More specifically, we are further developing the so-called ‘prediction-focused analysis’ for direct forecasting
+						that circumvents classical inversion. I focus on the modelling of uncertain boundary conditions (e.g., specified 
+						hydraulic heads or river water–groundwater interaction) as well as on the integration of partly redundant data variables.</p>
+            <p class="description"><code>GauProMod</code>: a <code>R</code>-package for Gaussian Process Modelling<br>
+              Code and short tutorial available on <a  rel="external" href="https://github.com/emanuelhuber/GauProMod">github</a></p>
+					</div>
+				</div>
+				</article>
+        
+        <article>
+				<div class="pub">
+					<h2>Relationship between the morphology of coarse, braided rivers and their sedimentary deposits</h2>
+					<p class="authors"></p>
+					<p class="journal">University of Basel</p>
+					<a href="#?w=700" class="poplight popup_surface_subsurface">more&hellip;</a>
+					<div id="popup_surface_subsurface" class="popup_block">
+						<h2>Relationship between the morphology of coarse, braided rivers and their sedimentary deposits</h2>
+						<p class="authors"></p>
+						<p class="journal">University of Basel</p>
+						<p class="description">The main objective is to understand how the braided river dynamics forms the subsurface heterogeneity and how this heterogeneity impacts the groundwater flow field. Near subsurface information was probed with Ground-Penetrating Radar (GPR) on the braidplain of the Tagliamento River (northeast Italy). The GPR data after processing and interpretation allowed us to confirm hypotheses deduced from geomorphological observations. We developped a relatively simple 3D marked point process which captures the main hydraulic heterogeneities. A sampling method based on McMC was designed to allow the main 3D structures of coarse braided deposits to be conditioned to 2D GPR data whereby the uncertainty on the dimension of the 3D structures is quantified. The developed algorithm uses the R-package <a href="https://cran.r-project.org/web/packages/RConics/index.html"><code>RConics</code></a> developed by myself for computation on conics.</p>
+            <p class="description">Related publication</p>
+						<ul>
+							<li>E. Huber, P. Huggenberger (2015) Morphological perspective on the sedimentary characteristics of a coarse, braided reach: Tagliamento River (NE Italy). Geomorphology. <a href="publications/2015_huber-and-huggenberger_morphological-perspective-sedimentology.pdf">
+						    <img src="img/pdf_30x32.png" alt="download PDF Morphological perspective on the sedimentary characteristics (braided Tagliamento River)" width="30" height="32">
+					      </a><br>
+							  DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1016/j.geomorph.2015.07.015">10.1016/j.geomorph.2015.07.015</a>
+						  </li>
+            </ul>
+					</div>
+				</div>
+				</article>
+        
+				<article>
+				<div class="pub">
+					<h2>Impact of the hydraulic heterogeneity of coarse, braided river deposits on the subsurface flow</h2>
+					<p class="authors"></p>
+					<p class="journal">Stanford University, University of Basel, UFZ Leipzig</p>
+					<a href="#?w=700" class="poplight popup_subsurfaceflow">more&hellip;</a>
+					<div id="popup_subsurfaceflow" class="popup_block">
+						<h2>Impact of the hydraulic heterogeneity of coarse, braided river deposits on the subsurface flow</h2>
+						<p class="authors"></p>
+						<p class="journal">Stanford University, University of Basel, UFZ Leipzig</p>
+						<p class="description">This project aims to design and perform a series of new field experiments to get insight into the groundwater
+ 						flow and transport processes, which are controlled by heterogeneously distributed aquifer properties such as hydraulic conductivity and porosity.</p>
+						<p class="description">The combination of direct-push, tracer test, hydraulic heads measurement and geophysics will allows us to
+						to characterise the subsurface heterogeneity, quantify the river water–groundwater interaction and
+						better understand the link between morphology and sedimentology in term of hydrodynamics.</p>
+            <p class="description">Related publications</p>
+						<ul>
+              <li>T. Vienken, E. Huber, M. Kreck, P. Huggenberger, P. Dietrich (2016) How to chase a tracer - combining conventional salt tracer testing and direct push electrical conductivity profiling for enhanced aquifer characterization. 
+								Advances in Water Resources. <a href="publications/2016_vienken-et-al_salt-tracer-direct-push-electrical-conductivity-profiling.pdf">
+						    <img src="img/pdf_30x32.png" alt="download PDF How to chase a tracer - combining conventional salt tracer testing and direct push electrical conductivity profiling for enhanced aquifer characterization" width="30" height="32">
+					      </a><br>
+								DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1016/j.advwatres.2016.11.010">10.1016/j.advwatres.2016.11.010</a>
+							</li>
+							<li>E. Huber, P. Huggenberger (2016) Subsurface flow mixing in coarse, braided river deposits. 
+								Hydrology and Earth System Sciences. <a href="publications/2016_huber-and-huggenberger_subsurface-flow-mixing.pdf">
+						    <img src="img/pdf_30x32.png" alt="download PDF Subsurface flow mixing in coarse, braided river deposits" width="30" height="32">
+					      </a><br>
+								DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.5194/hess-20-2035-2016">10.5194/hess-20-2035-2016</a>
+							</li>
+							<li>G. Pirot, P. Renard, E. Huber, J. Straubhaar, P. Huggenberger (2015) Influence of conceptual model uncertainty on contaminant transport forecasting in braided river aquifers. Journal of Hydrology. <a href="publications/2015_pirot-et-al_conceptual-model-contaminant-transport.pdf">
+						    <img src="img/pdf_30x32.png" alt="download PDF Influence of conceptual model uncertainty on contaminant transport forecasting in braided river aquifers" width="30" height="32">
+					      </a><br>
+							  DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1016/j.jhydrol.2015.07.036">10.1016/j.jhydrol.2015.07.036</a>
+						  </li>
+            </ul>
+					</div>
+				</div>
+				</article>				
+					
+        <article>
+				<div class="pub">
+					<h2><code>RGPR</code>, a R package to visualise and process <abbr title="Ground-Penetrating Radar">GPR</abbr> data</h2>
+					<p class="authors"></p>
+					<p class="journal">Stanford University</p>
+					<a href="#?w=700" class="poplight popup_rgpr">more&hellip;</a>
+					<div id="popup_rgpr" class="popup_block">
+						<h2><code>RGPR</code>, a R package to visualise and process <abbr title="Ground-Penetrating Radar">GPR</abbr> data</h2>
+						<p class="authors"></p>
+						<p class="journal">Stanford University</p>
+						<p class="description"><code>RGPR</code> is a R-package to handle ground-penetrating radar data: processing, visualisation, structure delineation.</p>
+						<p class="description"> Code available on <a  rel="external" href="https://github.com/emanuelhuber/RGPR">github</a></p>
+						<p class="description"> Tutorials available on <a  rel="external" href="http://emanuelhuber.github.io/RGPR/">companion website</a></p>
+					   <p class="description">Related publication</p>
+            <ul>
+							<li>C. Schmelzbach, E. Huber (2015) Efficient Deconvolution of Ground-Penetrating Radar Data. IEEE Transactions on Geoscience and Remote Sensing. <a href="publications/2015_schmelzbach-and-huber_deconvolution-gpr.pdf">
+						    <img src="img/pdf_30x32.png" alt="download PDF Efficient Deconvolution of Ground-Penetrating Radar Data" width="30" height="32">
+					      </a><br>
+							  DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1109/TGRS.2015.2419235">10.1109/TGRS.2015.2419235</a>
+						  </li>
+            </ul>
+          </div>
+				</div>
+				</article>
+        
+				<h1>Previous research projects</h1>
+				<article>
+				<div class="pub">
+					<h2>Cyclic deformations in the Opalinus clay: a laboratory experiment</h2>
+					<p class="authors">2012-2014</p>
+					<p class="journal">University of Basel,
+					Swiss Geological Survey,
+					edi meier + partner AG (Switzerland)</p>
+					<a href="#?w=700" class="poplight popup_cd">more&hellip;</a>
+					<div id="popup_cd" class="popup_block">
+						<h2>Cyclic deformations in the Opalinus clay: a laboratory experiment</h2>
+						<p class="authors">2012-2014</p>
+						<p class="journal">University of Basel,
+							Swiss Geological Survey,
+							edi meier + partner AG (Switzerland)</p>
+						<p class="description">The influence of tunnel climate on deformation cycles of joint openings and closings is often observed immediately after excavation. At the EZ-B niche in the Mt. Terri rock laboratory (Switzerland), a cyclic deformation of the shaly Opalinus clay has been monitored for several years. The deformation cycles of the joints parallel to the clay bedding planes correlate with seasonal variations in relative humidity of the air in the niche. In winter, when the relative humidity is the lowest (down to 65%), the joints open as the clay volume decreases, whereas they tend to close in the summer when the relative humidity reaches up to 100%. Furthermore, in situ measurements have shown the trend of an increasingly smaller aperture of joints with time. A laboratory experiment was carried out to reproduce the observed cyclic deformation in a climate chamber using a core sample of Opalinus clay. The main goal of the experiment was to investigate the influence of the relative humidity on the deformation of the Opalinus clay while excluding the in situ effects (e.g. confining stress).</p>
+					  <p class="description">Poster at the EGU (2015)</p>
+						<ul>
+							<li>Huber E., Huggenberger P., Andreas M. and Meier E. (2015) Poster: Cyclic deformations in the Opalinus
+clay: a laboratory experiment. EGU General Assembly 2015, Vienna, Austria, 12–17 April 2015. <a href="publications/poster2015_huber-et-al_Cyclic-deformations-in-Opalinus-clay.pdf">
+						    <img src="img/pdf_30x32.png" alt="download PDF Poster: Cyclic deformations in the Opalinus
+clay: a laboratory experiment" width="30" height="32">
+					      </a>
+							</li>
+            </ul>
+          </div>
+				</div>
+				</article>
+				<article>
+				<div class="pub">
+					<h2>Interactions between surface water, the hyporheic zone and groundwater in a small channelized river with artificial steps within the riverbed</h2>
+					<p class="authors">2009-2012</p>
+					<p class="journal">University of Basel</p>
+					<a href="#?w=700" class="poplight popup_nfisch">more&hellip;</a>
+					<div id="popup_nfisch" class="popup_block">
+						<h2>Interactions between surface water, the hyporheic zone and groundwater in a small channelized river with artificial steps within the riverbed</h2>
+						<p class="authors">2009-2012</p>
+						<p class="journal">University of Basel</p>
+						<p class="description">This research project was part of the project "Methodologies to measure and characterise fine sediment input to alpine rivers and their effects on health and reproduction of gravel spawning brown trout (Salmo trutta)" funded by the Swiss National Research Foundation (<a href="http://p3.snf.ch/Project-120486">SNF database</a>)</p>
+						<p class="description">Related publications</p>
+						<ul>
+							<li>Y. Schindler Wildhaber,  C. Michel, J. Epting, R.A. Wildhaber, E. Huber, P. Huggenberger, 
+								P. Burkhardt-Holm, C. Alewell (2014) Effects of river morphology, hydraulic gradients, 
+								and sediment deposition on water exchange and oxygen dynamics in salmonid redds. 
+								Science of The Total Environment. <a href="publications/2014_schindler-wildhaber-et-al_Effects of river morphology, hydraulic gradients, and sediment deposition on water exchange and oxygen dynamics in salmonid redds.pdf">
+						    <img src="img/pdf_30x32.png" alt="download PDF Effects of river morphology, hydraulic gradients, and sediment deposition on water exchange and oxygen dynamics in salmonid redd" width="30" height="32">
+					      </a><br>
+								DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1016/j.scitotenv.2013.09.100">10.1016/j.scitotenv.2013.09.100</a>
+							</li>
+							<li>E. Huber, P. Huggenberger, J. Epting, Y. Schindler Wildhaber (2013) Spatiotemporal scales of river-groundwater interaction: a multidimensional hydrogeological investigation approach. Grundwasser. <a href="publications/2013_huber-et-al_fluss-grundwasser-interaktion.pdf">
+						    <img src="img/pdf_30x32.png" alt="download PDF Spatiotemporal scales of river-groundwater interaction: a multidimensional hydrogeological investigation approach" width="30" height="32">
+					      </a><br>
+							  DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1007/s00767-013-0220-x">10.1007/s00767-013-0220-x</a>
+						  </li>
+            </ul>
+				  </div>
+				</div>
+				</article>
+				<article>
+				<div class="pub">
+					<h2>Worth of observation data in inverse optimization as well as in data assimilation with the Ensemble Kalman Filter</h2>
+					<p class="authors">2008-2009</p>
+					<p class="journal">Swiss Federal Institute of Technology in Zurich</p>
+					<a href="#?w=700" class="poplight popup_enkf">more&hellip;</a>
+					<div id="popup_enkf" class="popup_block">
+						<h2>Worth of observation data in inverse optimization as well as in data assimilation with the Ensemble Kalman Filter</h2>
+						<p class="authors">2008-2009</p>
+						<p class="journal">Swiss Federal Institute of Technology in Zurich</p>
+						<p class="description">The objective was to assess the impact of prior groundwater flow model calibration (with a varying amount of data) on predictions made with the Ensemble Kalman filter.</p>
+						<p class="description">Related publication</p>
+						<ul>
+							<li>E. Huber, H.J. Hendricks-Franssen, H.P. Kaiser, F. Stauffer (2011) The Role of Prior Model Calibration on Predictions with Ensemble Kalman Filter.
+                Groundwater.<a href="publications/2011_huber-et-al_role-prior-model-calibration_EnKF.pdf"><img src="img/pdf_30x32.png" alt="download PDF The Role of Prior Model Calibration on Predictions with Ensemble Kalman Filter" width="30" height="32">
+					      </a><br>
+								DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1111/j.1745-6584.2010.00784.x">10.1111/j.1745-6584.2010.00784.x</a>
+							</li>
+            </ul>
+					</div>
+				</div>
+				</article>
+			</div>
+			<aside>
+			<h1>Emanuel Huber</h1>
+			<p><a href="http://orcid.org/0000-0002-5528-0412"><img src="img/orcid_32x32.png" alt="ORCID logo"></a>&nbsp;
+			<a href="http://orcid.org/0000-0002-5528-0412">http://orcid.org/0000-0002-5528-0412</a></p>
+			<h2>Current position</h2>
+			<p>Postdoctoral fellow at <em>Stanford University</em><br>
+			Department of Geological Sciences</p>
+			
+			<h2>About</h2>
+			<p>- hydrogeology<br>
+			   - geophysics (ground-penetrating radar)<br>
+			   - uncertainty quantification<br>
+			   - sedimentology &amp; morphology of<br>
+               &nbsp;&nbsp;&nbsp;coarse, braided river systems
+			</p>
+			
+			<h2>Websites</h2>
+			<p>
+				<!--<a href="http://orcid.org/0000-0002-5528-0412" rel="external">ORCID</a><br>-->
+				<a href="https://github.com/emanuelhuber/" rel="external">Github</a><br>
+				<a href="https://scholar.google.com/citations?user=XOtBoaMAAAAJ&amp;hl=en" rel="external">Google Scholar</a><br>
+				<a href="https://www.researchgate.net/profile/Emanuel_Huber" rel="external">ResearchGate</a><br>
+				<a href="https://www.linkedin.com/in/emanuelhuber" rel="external">LinkedIn</a><br>
+				<a href="http://www.researcherid.com/rid/N-3235-2013" rel="external">ResearcherID</a><br>
+				<a href="http://aug.duw.unibas.ch/mitarbeiter.php?d_mitarbeiter=29" rel="external">University of Basel</a>
+			</p>
+			
+			<h2>Contact</h2>
+			<div id="hcard-Emanuel-Huber" class="vcard">
+				<span class="fn">Emanuel Huber</span>
+				<div class="org">Departement of Geology<br>Stanford University</div>
+				<a class="email" href="mailto:emanuel.huber@stanford.edu">emanuel.huber@stanford.edu</a>
+			</div>
+		</aside>
+		<!-- </div> -->
+
+		<footer>
+			<p>Last update: <time datetime="2017-03-13">13 March 2017</time> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+			&nbsp;<a href="http://validator.w3.org/check/referer">HTML</a> & <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a></p>
+		</footer>
+	</div>
+
+</body> 
