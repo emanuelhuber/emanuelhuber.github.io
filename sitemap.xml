@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
-      <loc>http://stanford.edu/%7Eehuber/</loc>
+      <loc>https://emanuelhuber.github.io</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
   </url> 
   <url>
-    <loc>http://stanford.edu/%7Eehuber/index.html</loc> 
+    <loc>https://emanuelhuber.github.io/index.html</loc> 
   </url>
   <url>
-    <loc>http://stanford.edu/%7Eehuber/research.html</loc> 
+    <loc>https://emanuelhuber.github.io/research.html</loc> 
   </url>
   <url>
-    <loc>http://stanford.edu/%7Eehuber/publications.html</loc> 
+    <loc>https://emanuelhuber.github.io/publications.html</loc> 
   </url>
   <url>
-    <loc>http://stanford.edu/%7Eehuber/education.html</loc> 
+    <loc>https://emanuelhuber.github.io/education.html</loc> 
   </url>
   <url>
-    <loc>http://stanford.edu/%7Eehuber/publications/2016_vienken-et-al_salt-tracer-direct-push-electrical-conductivity-profiling.pdf</loc> 
+    <loc>https://emanuelhuber.github.io/publications/2016_vienken-et-al_salt-tracer-direct-push-electrical-conductivity-profiling.pdf</loc> 
   </url>
   <url>
-    <loc>http://stanford.edu/%7Eehuber/publications/2016_huber-and-huggenberger_subsurface-flow-mixing.pdf</loc> 
+    <loc>https://emanuelhuber.github.io/publications/2016_huber-and-huggenberger_subsurface-flow-mixing.pdf</loc> 
   </url>
   <url>
-    <loc>http://stanford.edu/%7Eehuber/publications/2015_huber-and-huggenberger_morphological-perspective-sedimentology.pdf</loc> 
+    <loc>https://emanuelhuber.github.io/publications/2015_huber-and-huggenberger_morphological-perspective-sedimentology.pdf</loc> 
   </url>
   <url>
-    <loc>http://stanford.edu/%7Eehuber/publications/2015_schmelzbach-and-huber_deconvolution-gpr.pdf</loc> 
+    <loc>https://emanuelhuber.github.io/publications/2015_schmelzbach-and-huber_deconvolution-gpr.pdf</loc> 
   </url>
   <url>
-    <loc>http://stanford.edu/%7Eehuber/publications/2015_pirot-et-al_conceptual-model-contaminant-transport.pdf</loc> 
+    <loc>https://emanuelhuber.github.io/publications/2015_pirot-et-al_conceptual-model-contaminant-transport.pdf</loc> 
   </url>
   <url>
-    <loc>http://stanford.edu/%7Eehuber/publications/2014_schindler-wildhaber-et-al_Effects%20of%20river%20morphology,%20hydraulic%20gradients,%20and%20sediment%20deposition%20on%20water%20exchange%20and%20oxygen%20dynamics%20in%20salmonid%20redds.pdf</loc> 
+    <loc>https://emanuelhuber.github.io/publications/2014_schindler-wildhaber-et-al_Effects%20of%20river%20morphology,%20hydraulic%20gradients,%20and%20sediment%20deposition%20on%20water%20exchange%20and%20oxygen%20dynamics%20in%20salmonid%20redds.pdf</loc> 
   </url>  
   <url>
-    <loc>http://stanford.edu/%7Eehuber/publications/2013_huber-et-al_fluss-grundwasser-interaktion.pdf</loc> 
+    <loc>https://emanuelhuber.github.io/publications/2013_huber-et-al_fluss-grundwasser-interaktion.pdf</loc> 
   </url>
   <url>
-    <loc>http://stanford.edu/%7Eehuber/publications/2011_huber-et-al_role-prior-model-calibration_EnKF.pdf</loc> 
+    <loc>https://emanuelhuber.github.io/publications/2011_huber-et-al_role-prior-model-calibration_EnKF.pdf</loc> 
   </url>   
 </urlset>
