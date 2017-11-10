@@ -181,7 +181,7 @@ div.pub p{
 	margin: .075em 0 0 0;
 }
 div.pub p.journal{
-	font-style:bold;
+	font-weight:bold;
 	color:#939598;
 }
 div.pub span.pdf{
