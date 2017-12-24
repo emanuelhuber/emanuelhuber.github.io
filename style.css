@@ -98,12 +98,12 @@ aside {
 	/* display: table-cell; */
 	/* height:100%; */
 }
-aside h1 {
+aside h2 {
 	color: #a6ce39;
 	font-size: 1.5em; /* equiv 26px */
     font-weight: bold;
 }
-aside h2 {
+aside h3 {
 	/* color: #a6ce39; */
 	font-size: 1.2em; /* equiv 26px */
     font-weight: bold;
@@ -219,6 +219,8 @@ div.pub span.pdf{
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+  overflow: auto;
+  max-height: 700px;
 }
 
 div.pub .popup_block p{
@@ -227,7 +229,7 @@ div.pub .popup_block p{
 
 img.btn_close {
 	float: right;
-	margin: -35px -35px 0 0;
+	margin: -15px -15px 0 0;
 }
 /*--Gérer la position fixed pour IE6--*/
 *html #fade {

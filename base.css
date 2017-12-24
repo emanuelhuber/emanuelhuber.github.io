@@ -192,7 +192,3 @@ body > script {display: none !important;}
 	padding:0;
 }
 
-.popup_block{
-   overflow: auto;
-  max-height: 700px;
-}
