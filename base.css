@@ -192,3 +192,6 @@ body > script {display: none !important;}
 	padding:0;
 }
 
+.popup_block{
+   overflow:scroll;
+}
