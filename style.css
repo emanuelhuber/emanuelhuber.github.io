@@ -229,7 +229,7 @@ div.pub .popup_block p{
 
 img.btn_close {
 	float: right;
-	margin: 5px 5px 0 0;
+	margin: -15px -10px 0 0;
 }
 /*--Gérer la position fixed pour IE6--*/
 *html #fade {
