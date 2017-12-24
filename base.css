@@ -194,4 +194,5 @@ body > script {display: none !important;}
 
 .popup_block{
    overflow:scroll;
+   height: 500px;
 }
