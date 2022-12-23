@@ -1,0 +1,60 @@
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+  
+  <meta name="description" content="Personal website of Emanuel Huber - geoscientist with focus on hydrogeology, 
+	coarse braided river systems (morphology and sedimentology) and uncertainty quantification">
+	<meta name="keywords" content="Hydrogeology, ground-penetrating radar, braided river, uncertainty">
+	<meta name="author" content="Emanuel Huber">
+  
+  <!-- CSS -->
+  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/public/test2.css"> -->
+  
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  
+  <!--<link rel="stylesheet" href="base.css">-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <!-- include Cycle plugin -->
+  <script src="{{ site.baseurl }}/public/js/jquery.cycle.all_min.js"></script>
+  <script>    
+    /* https://github.com/fuzzywalrus/Bootstrap---JQuery-Cycle--Responsive-Slide-Show-.git */
+    $(document).ready(function() {
+      //JQuery Cycle code
+      $('#slideshow').after('<ul id="pager">').cycle({ 
+      fx:     'fade',
+      //prev: '#prev',
+      //next: '#next',
+      //pager:  '#pager',
+      containerResize: 0,
+      width: '100%',
+        speed:  3000,
+      fit: 1,
+        pagerAnchorBuilder: function(idx, el) {
+        return '<li><a href="cpage_7#"></a></li>';
+        }
+      });
+    });
+  </script>
+    
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>

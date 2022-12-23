@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Advective mixing in groundwater &middot; Emanuel Huber
+    
+  </title>
+  
+  <meta name="description" content="Personal website of Emanuel Huber - geoscientist with focus on hydrogeology, 
+	coarse braided river systems (morphology and sedimentology) and uncertainty quantification">
+	<meta name="keywords" content="Hydrogeology, ground-penetrating radar, braided river, uncertainty">
+	<meta name="author" content="Emanuel Huber">
+  
+  <!-- CSS -->
+  <!-- <link rel="stylesheet" href="/test/public/test2.css"> -->
+  
+  <link rel="stylesheet" href="/test/public/css/poole.css">
+  <link rel="stylesheet" href="/test/public/css/syntax.css">
+  <link rel="stylesheet" href="/test/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  
+  <!--<link rel="stylesheet" href="base.css">-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <!-- include Cycle plugin -->
+  <script src="/test/public/js/jquery.cycle.all_min.js"></script>
+  <script>    
+    /* https://github.com/fuzzywalrus/Bootstrap---JQuery-Cycle--Responsive-Slide-Show-.git */
+    $(document).ready(function() {
+      //JQuery Cycle code
+      $('#slideshow').after('<ul id="pager">').cycle({ 
+      fx:     'fade',
+      //prev: '#prev',
+      //next: '#next',
+      //pager:  '#pager',
+      containerResize: 0,
+      width: '100%',
+        speed:  3000,
+      fit: 1,
+        pagerAnchorBuilder: function(idx, el) {
+        return '<li><a href="cpage_7#"></a></li>';
+        }
+      });
+    });
+  </script>
+    
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/test/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/test/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+<body>
+  <div class="container">     
+    
+    <header>  
+      <nav>	
+  <ul id="navigation">
+    <li>
+      <a class="sidebar-nav-item" href="/test/">Home</a>
+    </li>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+    
+      
+        
+        <li>
+          <a class="sidebar-nav-item" href="/test/cv/">CV</a>
+        </li>
+       
+      
+    
+      
+        
+      
+    
+      
+        
+        <li>
+          <a class="sidebar-nav-item" href="/test/posts/">Articles</a>
+        </li>
+       
+      
+    
+      
+        
+        <li>
+          <a class="sidebar-nav-item" href="/test/projects/">Projects</a>
+        </li>
+       
+      
+    
+      
+        
+        <li>
+          <a class="sidebar-nav-item" href="/test/publications/">Publications</a>
+        </li>
+       
+      
+    
+      
+    
+  </ul>
+</nav>
+
+    </header>
+    
+    <div class="content">
+      <div class="post">
+  <h1 class="post-title">Article: &nbsp;Advective mixing in groundwater</h1>
+  <span class="post-date">22 Dec 2022</span>
+  <p>Did you learn that streamlines in groundwater flows never intersect? This is absolutely true for two-dimensional divergence-free flows (no source, no sink). In two-dimensional, divergence-free flows the streamline geometry is deformed only locally: at a large distance upstream and downstream from subsurface heterogeneity the streamline arrangement remains exactly the same.</p>
+
+<p>How do streamlines behave in three-dimensional divergence-free flows? In three-dimensional, non-axisymetric flows the streamlines are <strong>permanently</strong> rearranged by the redistribution of the fluid within the subsurface.</p>
+
+<p><img src="/test/assets/img_posts/2022-12-23-advective-mixing_fig02.png" alt="stream tubes and control planes for 3-D flow past isolated inclusions" /></p>
+
+<p>The intersections of stream tubes and control planes for 3-D flow past isolated inclusions: (top left) infinitely conductive sphere, (top right) prolate ellipsoid, (bottom left) oblate ellipsoid, and (bottom right) impermeable oblate ellipsoid (from Jankovi? et al., 2009).</p>
+
+<p>The intersections of stream tubes and control planes for 3-D flow past isolated inclusions: (top left) infinitely conductive sphere, (top right) prolate ellipsoid, (bottom left) oblate ellipsoid, and (bottom right) impermeable oblate ellipsoid (from Jankovi? et al., 2009).</p>
+
+<p>What kind of permanent rearrangement can happen?</p>
+
+<ul>
+  <li>streamline focusing/defocusing</li>
+  <li>depth-dependent streamline meandering (i.e. streamline deviation),</li>
+  <li>secondary motion consisting in persistent twisting, folding, and intertwining of streamlines.</li>
+</ul>
+
+<p>This is called advective mixing and it plays a non-negligible role in enhancing diffusion/dispersion. Modeling subsurface flow transport without accounting for three-dimensional flow and/or small scale heterogeneity will clearly underestimate the subsurface mixing processes.</p>
+
+<p><img src="/test/assets/img_posts/2022-12-23-advective-mixing_fig01.png" alt="stream tubes and control planes for 3-D flow past isolated inclusions" /></p>
+
+<p>For example, delineating a well capture zone based on a 2D groundwater flow model with particle tracking will result in a too narrow and unrealistic capture zone: in this capture zone a drop of water has a 100% chance to be extracted by the well and the capture zone extends up to the model boundary. In reality the capture chance is decreasing with increasing distance between the drop of water and the well: due to the 3D subsurface flow mixing a drop of water far away from the well has a low chance to reach the well.</p>
+
+<p><strong>Literature about advective mixing:</strong></p>
+
+<ul>
+  <li>
+    <p>Hemker, K., van den Berg, E., and Bakker, M.: Ground Water Whirls, Ground Water, 42, 234?242, https://doi.org/10.1111/j.1745-6584.2004.tb02670.x, 2004.</p>
+  </li>
+  <li>
+    <p>Huber, E. and Huggenberger, P.: Subsurface flow mixing in coarse, braided river deposits, Hydrol. Earth Syst. Sci., 20, 2035?2046, https://doi.org/10.5194/hess-20-2035-2016, 2016.</p>
+  </li>
+  <li>
+    <p>Jankovi?, I., Steward, D. R., Barnes, R. J., and Dagan, G.: Is transverse macrodispersivity in three-dimensional groundwater transport equal to zero? A counterexample, Water Resour. Res., 45, W08415, https://doi.org/10.1029/2009WR007741, 2009.</p>
+  </li>
+  <li>
+    <p>Steward, D. R.: Stream surfaces in two-dimensional and three-dimensional divergence-free flows, Water Resour. Res., 34, 1345?1350, https://doi.org/10.1029/98WR00215, 1998.</p>
+  </li>
+</ul>
+
+
+</div>
+
+
+
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/test/2022/12/23/RGPR/">
+            RGPR - an open-source software for GPR data processing
+            <small>23 Dec 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+<!--
+<h2> PAGINATION </h2>
+<div class="pagination">
+  
+    <span class="pagination-item older">Older</span>
+  
+  
+    <span class="pagination-item newer">Newer</span>
+  
+</div>
+
+-->
+
+    </div>
+    
+    <footer>
+      <p>Last update: <time datetime="2022-12-22 00:00:00 +0100">22 Dec 2022</time> <br>
+  <a href="http://validator.w3.org/check?uri=https%3A%2F%2Femanuelhuber.github.io%2Findex.html">HTML</a> &amp; 
+  <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Femanuelhuber.github.io%2Findex.html">CSS</a>
+</p>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+    </footer>
+  </div> <!-- /container -->
+</body>
+</html>

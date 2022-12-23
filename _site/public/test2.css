@@ -1,0 +1,177 @@
+body, html {
+    height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: #fff;
+  color: #444;
+}
+
+h1, p {
+  margin: 0 0 1em 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 20px;
+  display: grid;
+  grid-gap: 10px;
+}
+
+header{
+  order:1;
+}
+
+aside{
+  order:2;
+}
+
+.content{
+  order:3;
+}
+
+footer{
+  order:4;
+}
+
+.blank {max-height: 10px}
+
+#navigation li {
+	display: inline;
+	/* padding: 70px 0 0; */
+	width:auto;
+	float:left;
+  margin-right:20px;
+}
+#navigation li a {
+  padding: 5px 5px ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  font-weight: bold;
+  text-decoration: none;
+  color: #91BD09;
+  display:block;
+}
+#navigation li a:hover {
+    /* text-decoration: underline; */
+    color: white;
+	background-color: #939598;
+}
+#navigation li a:focus {
+    text-decoration: underline;
+   /*  color: white;
+	background-color: #939598; */
+}
+
+#navigation a.active {
+    background-color: #91BD09;
+    color: #fff;
+}
+
+@media(min-width:900px) {
+ .row {
+  margin-left:-30px;
+  *zoom:1
+ }
+ .row:before,.row:after {
+  display:table;
+  line-height:0;
+  content:""
+ }
+ .row:after {
+  clear:both
+ }
+ [class*="span"] {
+  float:left;
+  min-height:1px;
+  margin-left:30px
+ }
+}
+
+/* Place text in the middle of the image */
+
+
+@media screen and (min-width: 500px) {
+
+  /* no grid support? */
+  aside {
+    float: left;
+    width: 19.1489%;
+  }
+
+  .content {
+    float: right;
+    width: 79.7872%;
+  }
+
+  .container {
+    margin: 0 auto;
+    grid-template-columns: 2fr 4fr;
+  }
+  
+  
+  header, footer, .row {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+  }
+   .row {
+  margin-left:-30px;
+  *zoom:1
+ }
+ .row:before,.row:after {
+  display:table;
+  line-height:0;
+  content:""
+ }
+ .row:after {
+  clear:both
+ }
+ [class*="span"] {
+  float:left;
+  min-height:1px;
+  margin-left:30px
+ }
+  
+
+}
+
+@media screen and (max-width: 500px) {
+  aside{
+    order:3;
+  }
+
+  .content{
+    order:2;
+  }
+}
+
+.container > * {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  /* font-size: 150%; */
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+
+aside{
+  font-size:100%;
+}
+
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .container > * {
+    width: auto;
+    margin: 0;
+  }
+}

@@ -1,0 +1,338 @@
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/hyde.
+ */
+
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Sidebar
+ * Container
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  color:  	#202020;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+header{
+  /* height:200px; */
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 48em) {
+  .content {
+    /* max-width: 38rem; */
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+
+
+/*
+NAVIGATION
+*/
+
+nav {
+  float:right;
+  padding:0em;
+  width:100%;
+  border-bottom:0.05rem solid;
+}
+
+#navigation ul {
+  display:flex;  
+  list-style:none;
+}
+
+#navigation li {
+	display: inline;
+	/* padding: 70px 0 0; */
+	width:auto;
+	float:left;
+  margin-right:1em;
+}
+
+#navigation li a {
+  padding: 5px 5px ;
+  font: 0.85em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  text-decoration: none;
+  color: #268bd2;
+  display:block;
+}
+#navigation li a:hover {
+    /* text-decoration: underline; */
+    color: white;
+	background-color: #939598;
+}
+#navigation li a:focus {
+    text-decoration: underline;
+   /*  color: white;
+	background-color: #939598; */
+}
+
+#navigation a.active {
+    background-color: #268bd2;
+    color: #fff;
+}
+
+
+/*
+HOME PAGE
+*/
+
+.profile_inner{
+  text-align:center;
+  padding-top:5em;
+ 
+}
+
+.profile_inner img {
+  display: inline-table;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.social-icons a svg {
+  color:#268bd2;
+  height: 26px;
+  width: 26px;
+}
+
+
+
+/*
+FOOTER
+*/
+
+footer {
+  font-size: 0.75em;
+  text-align:center;
+}
+
+
+/*
+
+ MISC
+*/
+
+
+
+div.pub{
+	margin-top:1.5em;
+	position: relative;
+	padding:10px;
+	-webkit-box-shadow: 2px 3px 6px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 3px 6px 0px rgba(0,0,0,0.4);
+	box-shadow: 2px 3px 6px 0px rgba(0,0,0,0.4);
+	
+}
+
+div.pub h2{
+	font-size: 1.25em; /* 1.7143em equiv 24px */
+    line-height: 1.25em;
+    margin:0;
+	padding:0;
+}
+
+div.pub p{
+	margin: .075em 0 0 0;
+}
+div.pub p.journal{
+	font-weight:bold;
+	color:#939598;
+}
+div.pub span.pdf{
+	position: absolute;
+	right: 1em;
+	bottom:0em;
+	box-shadow: none;
+}
+
+
+
+h2.posts {
+  font-size:1.5em;
+}
+
+
+article {
+  display:inline-flex;
+}
+
+article div.image {
+  flex-basis: 40%;
+}
+
+
+
+article .post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article .entry {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+
+
+blockquote.home{
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 2.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote.home:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote.home p {
+  display: inline;
+}
+
+
+/*
+ * Themes
+ *
+ * As of v1.1, Hyde includes optional themes to color the sidebar and links
+ * within blog posts. To use, add the class of your choosing to the `body`.
+ */
+
+/* Base16 (http://chriskempson.github.io/base16/#default) */
+
+/* Red */
+.theme-base-08 .sidebar {
+  background-color: #ac4142;
+}
+.theme-base-08 .content a,
+.theme-base-08 .related-posts li a:hover {
+  color: #ac4142;
+}
+
+/* Orange */
+.theme-base-09 .sidebar {
+  background-color: #d28445;
+}
+.theme-base-09 .content a,
+.theme-base-09 .related-posts li a:hover {
+  color: #d28445;
+}
+
+/* Yellow */
+.theme-base-0a .sidebar {
+  background-color: #f4bf75;
+}
+.theme-base-0a .content a,
+.theme-base-0a .related-posts li a:hover {
+  color: #f4bf75;
+}
+
+/* Green */
+.theme-base-0b .sidebar {
+  background-color: #90a959;
+}
+.theme-base-0b .content a,
+.theme-base-0b .related-posts li a:hover {
+  color: #90a959;
+}
+
+/* Cyan */
+.theme-base-0c .sidebar {
+  background-color: #75b5aa;
+}
+.theme-base-0c .content a,
+.theme-base-0c .related-posts li a:hover {
+  color: #75b5aa;
+}
+
+/* Blue */
+.theme-base-0d .sidebar {
+  background-color: #6a9fb5;
+}
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+  color: #6a9fb5;
+}
+
+/* Magenta */
+.theme-base-0e .sidebar {
+  background-color: #aa759f;
+}
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+  color: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .sidebar {
+  background-color: #8f5536;
+}
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+  color: #8f5536;
+}
