@@ -5,7 +5,6 @@ date: 2022-12-23
 ---
 
 
-Ground penetrating radar (GPR) models of the regolith and water reservoir of an underground dam in the Brazilian semiarid region
 
 <div class="pub">
 	<h2>Ground penetrating radar (GPR) models of the regolith and water reservoir of an underground dam in the Brazilian semiarid region</h2>
