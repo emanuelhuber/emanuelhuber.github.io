@@ -7,13 +7,14 @@ description: RGPR is a free and open-source software package for ground-penetrat
 picture: "RGPR_logo.png"
 ---
 
-<article>
-  <p class="authors"></p>
-  <p class="journal">Stanford University, University of Basel, UFZ Leipzig</p>
-  <p class="description">This project aims to design and perform a series of new field experiments to get insight into the groundwater
-	  flow and transport processes, which are controlled by heterogeneously distributed aquifer properties such as hydraulic conductivity and porosity.</p>
-	  <p class="description">The combination of direct-push, tracer test, hydraulic heads measurement and geophysics will allows us to
-	  to characterise the subsurface heterogeneity, quantify the river water–groundwater interaction and
-	  better understand the link between morphology and sedimentology in term of hydrodynamics.</p>
-    <p class="description">Related publications</p>
-</article>
+RGPR is a free and open-source software package for ground-penetrating radar (GPR) data processing, export/import, visualisation, etc.
+
+RGPR is written in R, a high-level programming language for statistical computing and graphics that is freely available under the GNU General Public License and runs on Linux, Windows and MacOS. R is a highly versatile and extensible language to which C, C++ and Fortran code can be linked and run. Furthermore, the R developer community is very active and more than 10’000 packages are hosted on the official global package repository CRAN (Comprehensive R Archive Network, [https://cran.r-project.org](https://cran.r-project.org)). In 2017, R was ranked as the sixth top programming language by the Institute of Electrical and Electronics Engineers. R is somehow similar to matlab or python (for an interesting comparison between R and python, check https://github.com/matloff/R-vs.-Python-for-Data-Science)
+
+RGPR is hosted on GitHub at [https://github.com/emanuelhuber/RGPR](https://github.com/emanuelhuber/RGPR).
+
+Tutorials available on companion website
+
+This is an ongoing project. If you have any questions, requirements, suggestions, don’t hesitate to contact me (in english, french or german):
+
+emanuel.huber@alumni.ethz.ch

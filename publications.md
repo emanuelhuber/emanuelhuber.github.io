@@ -4,36 +4,50 @@ title: Publications
 date: 2022-12-23
 ---
 
+
+Ground penetrating radar (GPR) models of the regolith and water reservoir of an underground dam in the Brazilian semiarid region
+
 <div class="pub">
-	<h2>RGPR - An open-source package to process and visualize GPR data</h2>
-	<p class="authors">E. Huber, G. Hans (2018)</p>
-  <p class="journal">Conference proceeding: 17<sup>th</sup> International Conference on Ground Penetrating Radar,
-June 18–21, 2018 in Rapperswil, Switzerland</p>
-  <p class="doi">
-	<!--  DOI:&nbsp;<a rel="external" href="        http://dx.doi.org/10.1016/j.advwatres.2016.11.010">10.1016/j.advwatres.2016.11.010</a>-->
-	<span class="pdf"><a href="2018_huber-and-hans_RGPR-new-R-package_notes.pdf">
-		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF 'RGPR - An open-source package to process and
-visualize GPR data'" width=30 height=32>
+	<h2>Ground penetrating radar (GPR) models of the regolith and water reservoir of an underground dam in the Brazilian semiarid region</h2>
+	<p class="authors">Gustavo M. Vasques, Hugo M. Rodrigues, Emanuel Huber, Sílvio R.L. Tavares, Flávio A. Marques, Maria Sônia L. Silva (2022)</p>
+  <p class="journal">Journal of Applied Geophysics</p>
+  <p class="doi">DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1016/j.jappgeo.2022.104797">10.1016/j.jappgeo.2022.104797</a>
+	<span class="pdf"><a href="2022_vasques-et-al_GPR-models-regolith-1.pdf">
+		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF 'Ground penetrating radar (GPR) models of the regolith'" width=30 height=32>
 	</a></span>
 	</p>
 </div>
+
+
 <div class="pub">
-	<h2>Quantifying scour depth in a straightened gravel-bed river with ground-penetrating radar</h2>
-	<p class="authors">E. Huber, B. Anders, P. Huggenberger (2018)</p>
-	<p class="journal">Conference proceeding: 17<sup>th</sup>  International Conference on Ground Penetrating Radar,
-June 18–21, 2018 in Rapperswil, Switzerland</p>
-  <p class="doi">
-	<!--  DOI:&nbsp;<a rel="external" href="        http://dx.doi.org/10.1016/j.advwatres.2016.11.010">10.1016/j.advwatres.2016.11.010</a>-->
-	<span class="pdf"><a href="2018_huber-et-al_scour-depth-Alpine-Rhine-River-GPR_notes.pdf">
-		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF '2018_huber-et-al_scour-depth-Alpine-Rhine-River-GPR_notes.pdf'" width=30 height=32>
+	<h2>Imaging scours in straightened and braided gravel-bed rivers with ground-penetrating radar</h2>
+	<p class="authors">Emanuel Huber, Birte Anders, Peter Huggenberger (2019)</p>
+  <p class="journal">Near Surface Geophysics</p>
+  <p class="doi">DOI:&nbsp;<a rel="external" href="https://doi.org/10.1002/nsg.12042">10.1002/nsg.12042</a>
+	<span class="pdf"><a href="2019_huber-et-al_imaging-scours-gpr-gravel-bed-rivers.pdf">
+		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF 'Imaging scours in straightened and braided gravel-bed rivers'" width=30 height=32>
 	</a></span>
 	</p>
 </div>
+
+
+<div class="pub">
+	<h2>Reduction of conceptual model uncertainty using ground-penetrating radar profiles: Field-demonstration for a braided-river aquifer</h2>
+	<p class="authors">Guillaume Pirot, Emanuel Huber, James Irving, Niklas Linde (2019)</p>
+  <p class="journal">Journal of Hydrology</p>
+  <p class="doi">DOI:&nbsp;<a rel="external" href="https://doi.org/10.1016/j.jhydrol.2019.01.047">10.1016/j.jhydrol.2019.01.047</a>
+	<span class="pdf"><a href="2019_pirot-et-al_reduction-conceptual-model-uncertainty-GPR.pdf">
+		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF 'Reduction of conceptual model uncertainty using GPR'" width=30 height=32>
+	</a></span>
+	</p>
+</div>
+
+
 <div class="pub">
 	<h2>How to chase a tracer - combining conventional salt tracer testing and direct push electrical conductivity profiling for enhanced aquifer characterization</h2>
 	<p class="authors">T. Vienken, E. Huber, M. Kreck, P. Huggenberger, P. Dietrich (2016)</p>
 	<p class="journal">Advances in Water Resources</p>
-	<p class="doi">DOI:&nbsp;<a rel="external" href="        http://dx.doi.org/10.1016/j.advwatres.2016.11.010">10.1016/j.advwatres.2016.11.010</a>
+	<p class="doi">DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1016/j.advwatres.2016.11.010">10.1016/j.advwatres.2016.11.010</a>
 	<span class="pdf"><a href="2016_vienken-et-al_salt-tracer-direct-push-electrical-conductivity-profiling.pdf">
 		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF How to chase a tracer - combining conventional salt tracer testing and direct push electrical conductivity profiling for enhanced aquifer characterization" width=30 height=32>
 	</a></span>
@@ -110,7 +124,50 @@ June 18–21, 2018 in Rapperswil, Switzerland</p>
 	</p>
 </div>
 
-<h1>Presentations (oral &amp; poster)</h1>
+<h2>PhD Thesis</h2>
+
+<div class="pub">
+	<h2>Incorporating sedimentological observations, hydrogeophysics and conceptual knowledge
+to constrain 3D numerical heterogeneity models of alluvial systems</h2>
+	<p class="authors">E. Huber (2017)</p>
+  <p class="journal">University of Basel (Switzerland)</p>
+  <p class="doi"><a rel="external" href="https://edoc.unibas.ch/56195/">https://edoc.unibas.ch/56195/</a>
+	<span class="pdf"><a href="diss_huber_2017_09_27_web_light.pdf">
+		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF 'PhD Thesis'" width=30 height=32>
+	</a></span>
+	</p>
+</div>
+
+
+<h2>Conference proceedings</h2>
+
+<div class="pub">
+	<h2>RGPR - An open-source package to process and visualize GPR data</h2>
+	<p class="authors">E. Huber, G. Hans (2018)</p>
+  <p class="journal">Conference proceeding: 17<sup>th</sup> International Conference on Ground Penetrating Radar,
+June 18–21, 2018 in Rapperswil, Switzerland</p>
+  <p class="doi">
+	<!--  DOI:&nbsp;<a rel="external" href="        http://dx.doi.org/10.1016/j.advwatres.2016.11.010">10.1016/j.advwatres.2016.11.010</a>-->
+	<span class="pdf"><a href="2018_huber-and-hans_RGPR-new-R-package_notes.pdf">
+		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF 'RGPR - An open-source package to process and
+visualize GPR data'" width=30 height=32>
+	</a></span>
+	</p>
+</div>
+<div class="pub">
+	<h2>Quantifying scour depth in a straightened gravel-bed river with ground-penetrating radar</h2>
+	<p class="authors">E. Huber, B. Anders, P. Huggenberger (2018)</p>
+	<p class="journal">Conference proceeding: 17<sup>th</sup>  International Conference on Ground Penetrating Radar,
+June 18–21, 2018 in Rapperswil, Switzerland</p>
+  <p class="doi">
+	<!--  DOI:&nbsp;<a rel="external" href="        http://dx.doi.org/10.1016/j.advwatres.2016.11.010">10.1016/j.advwatres.2016.11.010</a>-->
+	<span class="pdf"><a href="2018_huber-et-al_scour-depth-Alpine-Rhine-River-GPR_notes.pdf">
+		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF '2018_huber-et-al_scour-depth-Alpine-Rhine-River-GPR_notes.pdf'" width=30 height=32>
+	</a></span>
+	</p>
+</div>
+
+<h2>Presentations (oral &amp; poster)</h2>
 
 <div class="pub">
 	 <h2>Poster: RGPR - An open-source package to process and visualize GPR data</h2>

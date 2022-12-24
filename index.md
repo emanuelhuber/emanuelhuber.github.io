@@ -79,7 +79,24 @@ date: 2022-12-23
 				
 </div>
 
-<blockquote class="home">"the relationship between a problem and a method should be discussed from the perspective of a problem, and not the method. Doing otherwise actually causes more harm than good in the long run, because like all 'hand outs', it leaves the students incapable of fending (i.e., thinking) for themselves" (Michalewicz and Fogel, 2004).</blockquote>
+<blockquote class="home">Blind intelligence destroys sets and totalities, isolates
+all elements from their environment. It cannot conceive
+the inseparable link between observer and observed.
+The key realities are disintegrated, slipping through
+the cracks between academic disciplines. The human
+sciences no longer need a concept of the ‘human’, and
+sightless pedants conclude from this that the human
+does not exists, except as an illusion. The media are
+busily engaged in low-grade cretinization while the uni-
+versities devote themselves to high-grade cretinizations.
+The result of the dominant methodology is ever greater
+obscurantism, because there is no longer any associa-
+tion between the scattered elements of learning and no
+longer any  way of encoding them and reflecting upon
+them.<br>
+Edgar Morin (1985) Blind Intelligence. In: And He Loved
+Big Brother (Eds. S.G. Shoham and F. Rosenstiel), Palgrave
+Macmillan UK, 165–169. doi:10.1007/978-1-349-07831-8_21</blockquote>
 
 
 

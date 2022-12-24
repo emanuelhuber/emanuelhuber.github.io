@@ -14,10 +14,7 @@ How do streamlines behave in three-dimensional divergence-free flows? In three-d
 ![stream tubes and control planes for 3-D flow past isolated inclusions]({{ site.baseurl }}/assets/img_posts/2022-12-23-advective-mixing_fig02.png)
 
 
-
-The intersections of stream tubes and control planes for 3-D flow past isolated inclusions: (top left) infinitely conductive sphere, (top right) prolate ellipsoid, (bottom left) oblate ellipsoid, and (bottom right) impermeable oblate ellipsoid (from Jankovi? et al., 2009).
-
-The intersections of stream tubes and control planes for 3-D flow past isolated inclusions: (top left) infinitely conductive sphere, (top right) prolate ellipsoid, (bottom left) oblate ellipsoid, and (bottom right) impermeable oblate ellipsoid (from Jankovi? et al., 2009).
+The intersections of stream tubes and control planes for 3-D flow past isolated inclusions: (top left) infinitely conductive sphere, (top right) prolate ellipsoid, (bottom left) oblate ellipsoid, and (bottom right) impermeable oblate ellipsoid (from [Jankovic et al., 2009](https://doi.org/10.1029/2009WR007741)).
 
 What kind of permanent rearrangement can happen?
 
@@ -34,11 +31,11 @@ For example, delineating a well capture zone based on a 2D groundwater flow mode
 
 **Literature about advective mixing:**
 
-* Hemker, K., van den Berg, E., and Bakker, M.: Ground Water Whirls, Ground Water, 42, 234?242, https://doi.org/10.1111/j.1745-6584.2004.tb02670.x, 2004.
+* Hemker, K., van den Berg, E., and Bakker, M.: Ground Water Whirls, Ground Water, 42, 234?242, [DOI: 10.1111/j.1745-6584.2004.tb02670.x](https://doi.org/10.1111/j.1745-6584.2004.tb02670.x), 2004.
 
-* Huber, E. and Huggenberger, P.: Subsurface flow mixing in coarse, braided river deposits, Hydrol. Earth Syst. Sci., 20, 2035?2046, https://doi.org/10.5194/hess-20-2035-2016, 2016.
+* Huber, E. and Huggenberger, P.: Subsurface flow mixing in coarse, braided river deposits, Hydrol. Earth Syst. Sci., 20, 2035?2046, [DOI: 10.5194/hess-20-2035-2016](https://doi.org/10.5194/hess-20-2035-2016), 2016.
 
-* Jankovi?, I., Steward, D. R., Barnes, R. J., and Dagan, G.: Is transverse macrodispersivity in three-dimensional groundwater transport equal to zero? A counterexample, Water Resour. Res., 45, W08415, https://doi.org/10.1029/2009WR007741, 2009.
+* Jankovic, I., Steward, D. R., Barnes, R. J., and Dagan, G.: Is transverse macrodispersivity in three-dimensional groundwater transport equal to zero? A counterexample, Water Resour. Res., 45, W08415, [DOI: 10.1029/2009WR007741](https://doi.org/10.1029/2009WR007741), 2009.
 
-* Steward, D. R.: Stream surfaces in two-dimensional and three-dimensional divergence-free flows, Water Resour. Res., 34, 1345?1350, https://doi.org/10.1029/98WR00215, 1998.
+* Steward, D. R.: Stream surfaces in two-dimensional and three-dimensional divergence-free flows, Water Resour. Res., 34, 1345?1350, [DOI: 10.1029/98WR00215](https://doi.org/10.1029/98WR00215), 1998.
 
