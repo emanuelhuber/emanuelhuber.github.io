@@ -20,9 +20,14 @@ Related publications:
 
 Morphological perspective on the sedimentary characteristics of a coarse, braided reach: Tagliamento 
 
-- E. Huber, P. Huggenberger (2015) Morphological perspective on the sedimentary characteristics of a coarse, braided reach: Tagliamento River (NE Italy). Geomorphology. <a href="publications/2015_huber-and-huggenberger_morphological-perspective-sedimentology.pdf"><img src="img/pdf_30x32.png" alt="download PDF Morphological perspective on the sedimentary characteristics (braided Tagliamento River)" width="30" height="32"></a><br>DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1016/j.geomorph.2015.07.015">10.1016/j.geomorph.2015.07.015</a>
-- <em>Oral presentation:</em>E. Huber, P. Huggenberger, J. Caers (2016) A 3D object-based model to simulate highly-heterogeneous, coarse, braided river deposits. AGU 2016 Fall Meeting, San Francisco, California, USA, 12–16 December 2016. <a href="publications/talk_2016_huber-et-al_AGU_3D-object-based-model-braided-deposits.pdf"><img src="img/pdf_30x32.png" alt="download 3D object-based model (marked point process) of coarse braided river deposits" width="30" height="32"></a><br>DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.13140/RG.2.2.29333.32489">10.13140/RG.2.2.29333.32489</a>
+- E. Huber, P. Huggenberger (2015) Morphological perspective on the sedimentary characteristics of a coarse, braided reach: Tagliamento River (NE Italy). Geomorphology. 
+<a href="{{ site.baseurl }}/publications/2015_huber-and-huggenberger_morphological-perspective-sedimentology.pdf"><img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF Morphological perspective on the sedimentary characteristics (braided Tagliamento River)" width="30" height="32"></a>
+DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1016/j.geomorph.2015.07.015">10.1016/j.geomorph.2015.07.015</a>
+- <em>Oral presentation:</em>E. Huber, P. Huggenberger, J. Caers (2016) A 3D object-based model to simulate highly-heterogeneous, coarse, braided river deposits. AGU 2016 Fall Meeting, San Francisco, California, USA, 12–16 December 2016. <a href="{{ site.baseurl }}/publications/talk_2016_huber-et-al_AGU_3D-object-based-model-braided-deposits.pdf"><img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download 3D object-based model (marked point process) of coarse braided river deposits" width="30" height="32"></a>DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.13140/RG.2.2.29333.32489">10.13140/RG.2.2.29333.32489</a>
+- Emanuel Huber, Birte Anders, Peter Huggenberger (2019) Imaging scours in straightened and braided gravel-bed rivers with ground-penetrating radar. Near Surface Geophysics</p>
+<a href="{{ site.baseurl }}/publications/2019_huber-et-al_imaging-scours-gpr-gravel-bed-rivers.pdf"><img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF 'Imaging scours in straightened and braided gravel-bed rivers'" width="30" height="32"></a>
+DOI:&nbsp;<a rel="external" href="https://doi.org/10.1002/nsg.12042">10.1002/nsg.12042</a>
 
 
-<p><img src="low_aggradation_rate.png" alt="Low aggradation rate" width="500"></p>
-<p><img src="high_aggradation_rate.png" alt="Low aggradation rate" width="500"></p>
+<p><img src="low_aggradation_rate.png" alt="Low aggradation rate"></p>
+<p><img src="high_aggradation_rate.png" alt="Low aggradation rate"></p>

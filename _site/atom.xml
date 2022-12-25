@@ -4,7 +4,7 @@
  <title>Emanuel Huber</title>
  <link href="http://localhost:4000atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2022-12-23T20:20:16+01:00</updated>
+ <updated>2022-12-26T00:14:15+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -21,7 +21,7 @@
    <id>http://localhost:4000</id>
    <content type="html">&lt;div class=&quot;page&quot;&gt;
   &lt;h1 class=&quot;page-title&quot;&gt;404: Page not found&lt;/h1&gt;
-  &lt;p class=&quot;lead&quot;&gt;Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. &lt;a href=&quot;/test&quot;&gt;Head back home&lt;/a&gt; to try finding it again.&lt;/p&gt;
+  &lt;p class=&quot;lead&quot;&gt;Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. &lt;a href=&quot;&quot;&gt;Head back home&lt;/a&gt; to try finding it again.&lt;/p&gt;
 &lt;/div&gt;
 </content>
  </entry>
@@ -128,7 +128,7 @@ F. Stauffer and Dr. H.-J. Hendricks Franssen)&lt;/p&gt;
  <entry>
    <title>Home</title>
    <link href="http://localhost:4000/"/>
-   <updated>2018-03-07T00:00:00+01:00</updated>
+   <updated>2022-12-23T00:00:00+01:00</updated>
    <id>http://localhost:4000</id>
    <content type="html">&lt;div class=&quot;profile_inner&quot;&gt;
     &lt;img src=&quot;public/img/emanuelhuber_mod.png&quot; alt=&quot;profile picture&quot; width=&quot;280&quot; height=&quot;280&quot;&gt;
@@ -204,7 +204,24 @@ F. Stauffer and Dr. H.-J. Hendricks Franssen)&lt;/p&gt;
 				
 &lt;/div&gt;
 
-&lt;blockquote class=&quot;home&quot;&gt;&quot;the relationship between a problem and a method should be discussed from the perspective of a problem, and not the method. Doing otherwise actually causes more harm than good in the long run, because like all 'hand outs', it leaves the students incapable of fending (i.e., thinking) for themselves&quot; (Michalewicz and Fogel, 2004).&lt;/blockquote&gt;
+&lt;blockquote class=&quot;home&quot;&gt;Blind intelligence destroys sets and totalities, isolates
+all elements from their environment. It cannot conceive
+the inseparable link between observer and observed.
+The key realities are disintegrated, slipping through
+the cracks between academic disciplines. The human
+sciences no longer need a concept of the ‘human’, and
+sightless pedants conclude from this that the human
+does not exists, except as an illusion. The media are
+busily engaged in low-grade cretinization while the uni-
+versities devote themselves to high-grade cretinizations.
+The result of the dominant methodology is ever greater
+obscurantism, because there is no longer any associa-
+tion between the scattered elements of learning and no
+longer any  way of encoding them and reflecting upon
+them.&lt;br&gt;
+Edgar Morin (1985) Blind Intelligence. In: And He Loved
+Big Brother (Eds. S.G. Shoham and F. Rosenstiel), Palgrave
+Macmillan UK, 165–169. doi:10.1007/978-1-349-07831-8_21&lt;/blockquote&gt;
 
 
 
@@ -238,7 +255,7 @@ F. Stauffer and Dr. H.-J. Hendricks Franssen)&lt;/p&gt;
  <entry>
    <title>Projects</title>
    <link href="http://localhost:4000/projects/"/>
-   <updated>2018-05-31T00:00:00+02:00</updated>
+   <updated>2022-12-23T00:00:00+01:00</updated>
    <id>http://localhost:4000</id>
    <content type="html">&lt;div class=&quot;posts&quot;&gt;
   {% for project in site.projects %}
@@ -263,13 +280,147 @@ F. Stauffer and Dr. H.-J. Hendricks Franssen)&lt;/p&gt;
    <updated>2022-12-23T00:00:00+01:00</updated>
    <id>http://localhost:4000</id>
    <content type="html">&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;Ground penetrating radar (GPR) models of the regolith and water reservoir of an underground dam in the Brazilian semiarid region&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt;Gustavo M. Vasques, Hugo M. Rodrigues, Emanuel Huber, Sílvio R.L. Tavares, Flávio A. Marques, Maria Sônia L. Silva (2022)&lt;/p&gt;
+  &lt;p class=&quot;journal&quot;&gt;Journal of Applied Geophysics&lt;/p&gt;
+  &lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1016/j.jappgeo.2022.104797&quot;&gt;10.1016/j.jappgeo.2022.104797&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2022_vasques-et-al_GPR-models-regolith-1.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF 'Ground penetrating radar (GPR) models of the regolith'&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;Imaging scours in straightened and braided gravel-bed rivers with ground-penetrating radar&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt;Emanuel Huber, Birte Anders, Peter Huggenberger (2019)&lt;/p&gt;
+  &lt;p class=&quot;journal&quot;&gt;Near Surface Geophysics&lt;/p&gt;
+  &lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;https://doi.org/10.1002/nsg.12042&quot;&gt;10.1002/nsg.12042&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2019_huber-et-al_imaging-scours-gpr-gravel-bed-rivers.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF 'Imaging scours in straightened and braided gravel-bed rivers'&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;Reduction of conceptual model uncertainty using ground-penetrating radar profiles: Field-demonstration for a braided-river aquifer&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt;Guillaume Pirot, Emanuel Huber, James Irving, Niklas Linde (2019)&lt;/p&gt;
+  &lt;p class=&quot;journal&quot;&gt;Journal of Hydrology&lt;/p&gt;
+  &lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;https://doi.org/10.1016/j.jhydrol.2019.01.047&quot;&gt;10.1016/j.jhydrol.2019.01.047&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2019_pirot-et-al_reduction-conceptual-model-uncertainty-GPR.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF 'Reduction of conceptual model uncertainty using GPR'&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;How to chase a tracer - combining conventional salt tracer testing and direct push electrical conductivity profiling for enhanced aquifer characterization&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt;T. Vienken, E. Huber, M. Kreck, P. Huggenberger, P. Dietrich (2016)&lt;/p&gt;
+	&lt;p class=&quot;journal&quot;&gt;Advances in Water Resources&lt;/p&gt;
+	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1016/j.advwatres.2016.11.010&quot;&gt;10.1016/j.advwatres.2016.11.010&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2016_vienken-et-al_salt-tracer-direct-push-electrical-conductivity-profiling.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF How to chase a tracer - combining conventional salt tracer testing and direct push electrical conductivity profiling for enhanced aquifer characterization&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;Subsurface flow mixing in coarse, braided river deposits&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt;E. Huber, P. Huggenberger (2016)&lt;/p&gt;
+	&lt;p class=&quot;journal&quot;&gt;Hydrology and Earth System Sciences&lt;/p&gt;
+	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.5194/hess-20-2035-2016&quot;&gt;10.5194/hess-20-2035-2016&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2016_huber-and-huggenberger_subsurface-flow-mixing.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Subsurface flow mixing in coarse, braided river deposits&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;Morphological perspective on the sedimentary characteristics of a coarse, braided reach: Tagliamento River (NE Italy)&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt;E. Huber, P. Huggenberger (2015)&lt;/p&gt;
+	&lt;p class=&quot;journal&quot;&gt;Geomorphology&lt;/p&gt;
+	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1016/j.geomorph.2015.07.015&quot;&gt;10.1016/j.geomorph.2015.07.015&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2015_huber-and-huggenberger_morphological-perspective-sedimentology.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Morphological perspective on the sedimentary characteristics (braided Tagliamento River)&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;Efficient Deconvolution of Ground-Penetrating Radar Data&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt;C. Schmelzbach, E. Huber (2015)&lt;/p&gt;
+	&lt;p class=&quot;journal&quot;&gt;IEEE Transactions on Geoscience and Remote Sensing&lt;/p&gt;
+	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1109/TGRS.2015.2419235&quot;&gt;10.1109/TGRS.2015.2419235&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2015_schmelzbach-and-huber_deconvolution-gpr.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Efficient Deconvolution of Ground-Penetrating Radar Data&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;Influence of conceptual model uncertainty on contaminant transport forecasting in braided river aquifers&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt;G. Pirot, P. Renard, E. Huber, J. Straubhaar, P. Huggenberger (2015)&lt;/p&gt;
+	&lt;p class=&quot;journal&quot;&gt;Journal of Hydrology&lt;/p&gt;
+	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1016/j.jhydrol.2015.07.036&quot;&gt;10.1016/j.jhydrol.2015.07.036&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2015_pirot-et-al_conceptual-model-contaminant-transport.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Influence of conceptual model uncertainty on contaminant transport forecasting in braided river aquifers&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;Effects of river morphology, hydraulic gradients, and sediment deposition on water exchange and oxygen dynamics in salmonid redds&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt;Y. Schindler Wildhaber,  C. Michel, J. Epting, R.A. Wildhaber, E. Huber, P. Huggenberger, P. Burkhardt-Holm, C. Alewell (2014)&lt;/p&gt;
+	&lt;p class=&quot;journal&quot;&gt;Science of The Total Environment&lt;/p&gt;
+	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1016/j.scitotenv.2013.09.100&quot;&gt;10.1016/j.scitotenv.2013.09.100&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2014_schindler-wildhaber-et-al_Effects-river-morphology-sediment-salmonid-redds.pdf	&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Effects of river morphology, hydraulic gradients, and sediment deposition on water exchange and oxygen dynamics in salmonid redd&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;Spatiotemporal scales of river-groundwater interaction: a multidimensional hydrogeological investigation approach&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt; E. Huber, P. Huggenberger, J. Epting, Y. Schindler Wildhaber (2013)&lt;/p&gt;
+	&lt;p class=&quot;journal&quot;&gt;Grundwasser (German)&lt;/p&gt;
+	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1007/s00767-013-0220-x&quot;&gt;10.1007/s00767-013-0220-x&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2013_huber-et-al_fluss-grundwasser-interaktion.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Spatiotemporal scales of river-groundwater interaction: a multidimensional hydrogeological investigation approach&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;The Role of Prior Model Calibration on Predictions with Ensemble Kalman Filter&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt; E. Huber, H.J. Hendricks-Franssen, H.P. Kaiser, F. Stauffer (2011)&lt;/p&gt;
+	&lt;p class=&quot;journal&quot;&gt;Ground Water&lt;/p&gt;
+	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1111/j.1745-6584.2010.00784.x&quot;&gt;10.1111/j.1745-6584.2010.00784.x&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2011_huber-et-al_role-prior-model-calibration_EnKF.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Role of Prior Model Calibration on Predictions with Ensemble Kalman Filter&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;PhD Thesis&lt;/h2&gt;
+
+&lt;div class=&quot;pub&quot;&gt;
+	&lt;h2&gt;Incorporating sedimentological observations, hydrogeophysics and conceptual knowledge
+to constrain 3D numerical heterogeneity models of alluvial systems&lt;/h2&gt;
+	&lt;p class=&quot;authors&quot;&gt;E. Huber (2017)&lt;/p&gt;
+  &lt;p class=&quot;journal&quot;&gt;University of Basel (Switzerland)&lt;/p&gt;
+  &lt;p class=&quot;doi&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;https://edoc.unibas.ch/56195/&quot;&gt;https://edoc.unibas.ch/56195/&lt;/a&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;diss_huber_2017_09_27_web_light.pdf&quot;&gt;
+		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF 'PhD Thesis'&quot; width=30 height=32&gt;
+	&lt;/a&gt;&lt;/span&gt;
+	&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2&gt;Conference proceedings&lt;/h2&gt;
+
+&lt;div class=&quot;pub&quot;&gt;
 	&lt;h2&gt;RGPR - An open-source package to process and visualize GPR data&lt;/h2&gt;
 	&lt;p class=&quot;authors&quot;&gt;E. Huber, G. Hans (2018)&lt;/p&gt;
   &lt;p class=&quot;journal&quot;&gt;Conference proceeding: 17&lt;sup&gt;th&lt;/sup&gt; International Conference on Ground Penetrating Radar,
 June 18–21, 2018 in Rapperswil, Switzerland&lt;/p&gt;
   &lt;p class=&quot;doi&quot;&gt;
 	&lt;!--  DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;        http://dx.doi.org/10.1016/j.advwatres.2016.11.010&quot;&gt;10.1016/j.advwatres.2016.11.010&lt;/a&gt;--&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/2018_huber-and-hans_RGPR-new-R-package_notes.pdf&quot;&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2018_huber-and-hans_RGPR-new-R-package_notes.pdf&quot;&gt;
 		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF 'RGPR - An open-source package to process and
 visualize GPR data'&quot; width=30 height=32&gt;
 	&lt;/a&gt;&lt;/span&gt;
@@ -282,93 +433,13 @@ visualize GPR data'&quot; width=30 height=32&gt;
 June 18–21, 2018 in Rapperswil, Switzerland&lt;/p&gt;
   &lt;p class=&quot;doi&quot;&gt;
 	&lt;!--  DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;        http://dx.doi.org/10.1016/j.advwatres.2016.11.010&quot;&gt;10.1016/j.advwatres.2016.11.010&lt;/a&gt;--&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/2018_huber-et-al_scour-depth-Alpine-Rhine-River-GPR_notes.pdf&quot;&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;2018_huber-et-al_scour-depth-Alpine-Rhine-River-GPR_notes.pdf&quot;&gt;
 		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF '2018_huber-et-al_scour-depth-Alpine-Rhine-River-GPR_notes.pdf'&quot; width=30 height=32&gt;
 	&lt;/a&gt;&lt;/span&gt;
 	&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;pub&quot;&gt;
-	&lt;h2&gt;How to chase a tracer - combining conventional salt tracer testing and direct push electrical conductivity profiling for enhanced aquifer characterization&lt;/h2&gt;
-	&lt;p class=&quot;authors&quot;&gt;T. Vienken, E. Huber, M. Kreck, P. Huggenberger, P. Dietrich (2016)&lt;/p&gt;
-	&lt;p class=&quot;journal&quot;&gt;Advances in Water Resources&lt;/p&gt;
-	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;        http://dx.doi.org/10.1016/j.advwatres.2016.11.010&quot;&gt;10.1016/j.advwatres.2016.11.010&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/2016_vienken-et-al_salt-tracer-direct-push-electrical-conductivity-profiling.pdf&quot;&gt;
-		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF How to chase a tracer - combining conventional salt tracer testing and direct push electrical conductivity profiling for enhanced aquifer characterization&quot; width=30 height=32&gt;
-	&lt;/a&gt;&lt;/span&gt;
-	&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;pub&quot;&gt;
-	&lt;h2&gt;Subsurface flow mixing in coarse, braided river deposits&lt;/h2&gt;
-	&lt;p class=&quot;authors&quot;&gt;E. Huber, P. Huggenberger (2016)&lt;/p&gt;
-	&lt;p class=&quot;journal&quot;&gt;Hydrology and Earth System Sciences&lt;/p&gt;
-	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.5194/hess-20-2035-2016&quot;&gt;10.5194/hess-20-2035-2016&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/2016_huber-and-huggenberger_subsurface-flow-mixing.pdf&quot;&gt;
-		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Subsurface flow mixing in coarse, braided river deposits&quot; width=30 height=32&gt;
-	&lt;/a&gt;&lt;/span&gt;
-	&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;pub&quot;&gt;
-	&lt;h2&gt;Morphological perspective on the sedimentary characteristics of a coarse, braided reach: Tagliamento River (NE Italy)&lt;/h2&gt;
-	&lt;p class=&quot;authors&quot;&gt;E. Huber, P. Huggenberger (2015)&lt;/p&gt;
-	&lt;p class=&quot;journal&quot;&gt;Geomorphology&lt;/p&gt;
-	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1016/j.geomorph.2015.07.015&quot;&gt;10.1016/j.geomorph.2015.07.015&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/2015_huber-and-huggenberger_morphological-perspective-sedimentology.pdf&quot;&gt;
-		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Morphological perspective on the sedimentary characteristics (braided Tagliamento River)&quot; width=30 height=32&gt;
-	&lt;/a&gt;&lt;/span&gt;
-	&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;pub&quot;&gt;
-	&lt;h2&gt;Efficient Deconvolution of Ground-Penetrating Radar Data&lt;/h2&gt;
-	&lt;p class=&quot;authors&quot;&gt;C. Schmelzbach, E. Huber (2015)&lt;/p&gt;
-	&lt;p class=&quot;journal&quot;&gt;IEEE Transactions on Geoscience and Remote Sensing&lt;/p&gt;
-	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1109/TGRS.2015.2419235&quot;&gt;10.1109/TGRS.2015.2419235&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/2015_schmelzbach-and-huber_deconvolution-gpr.pdf&quot;&gt;
-		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Efficient Deconvolution of Ground-Penetrating Radar Data&quot; width=30 height=32&gt;
-	&lt;/a&gt;&lt;/span&gt;
-	&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;pub&quot;&gt;
-	&lt;h2&gt;Influence of conceptual model uncertainty on contaminant transport forecasting in braided river aquifers&lt;/h2&gt;
-	&lt;p class=&quot;authors&quot;&gt;G. Pirot, P. Renard, E. Huber, J. Straubhaar, P. Huggenberger (2015)&lt;/p&gt;
-	&lt;p class=&quot;journal&quot;&gt;Journal of Hydrology&lt;/p&gt;
-	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1016/j.jhydrol.2015.07.036&quot;&gt;10.1016/j.jhydrol.2015.07.036&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/2015_pirot-et-al_conceptual-model-contaminant-transport.pdf&quot;&gt;
-		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Influence of conceptual model uncertainty on contaminant transport forecasting in braided river aquifers&quot; width=30 height=32&gt;
-	&lt;/a&gt;&lt;/span&gt;
-	&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;pub&quot;&gt;
-	&lt;h2&gt;Effects of river morphology, hydraulic gradients, and sediment deposition on water exchange and oxygen dynamics in salmonid redds&lt;/h2&gt;
-	&lt;p class=&quot;authors&quot;&gt;Y. Schindler Wildhaber,  C. Michel, J. Epting, R.A. Wildhaber, E. Huber, P. Huggenberger, P. Burkhardt-Holm, C. Alewell (2014)&lt;/p&gt;
-	&lt;p class=&quot;journal&quot;&gt;Science of The Total Environment&lt;/p&gt;
-	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1016/j.scitotenv.2013.09.100&quot;&gt;10.1016/j.scitotenv.2013.09.100&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/2014_schindler-wildhaber-et-al_Effects-river-morphology-sediment-salmonid-redds.pdf	&quot;&gt;
-		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Effects of river morphology, hydraulic gradients, and sediment deposition on water exchange and oxygen dynamics in salmonid redd&quot; width=30 height=32&gt;
-	&lt;/a&gt;&lt;/span&gt;
-	&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;pub&quot;&gt;
-	&lt;h2&gt;Spatiotemporal scales of river-groundwater interaction: a multidimensional hydrogeological investigation approach&lt;/h2&gt;
-	&lt;p class=&quot;authors&quot;&gt; E. Huber, P. Huggenberger, J. Epting, Y. Schindler Wildhaber (2013)&lt;/p&gt;
-	&lt;p class=&quot;journal&quot;&gt;Grundwasser (German)&lt;/p&gt;
-	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1007/s00767-013-0220-x&quot;&gt;10.1007/s00767-013-0220-x&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/2013_huber-et-al_fluss-grundwasser-interaktion.pdf&quot;&gt;
-		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Spatiotemporal scales of river-groundwater interaction: a multidimensional hydrogeological investigation approach&quot; width=30 height=32&gt;
-	&lt;/a&gt;&lt;/span&gt;
-	&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;pub&quot;&gt;
-	&lt;h2&gt;The Role of Prior Model Calibration on Predictions with Ensemble Kalman Filter&lt;/h2&gt;
-	&lt;p class=&quot;authors&quot;&gt; E. Huber, H.J. Hendricks-Franssen, H.P. Kaiser, F. Stauffer (2011)&lt;/p&gt;
-	&lt;p class=&quot;journal&quot;&gt;Ground Water&lt;/p&gt;
-	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.1111/j.1745-6584.2010.00784.x&quot;&gt;10.1111/j.1745-6584.2010.00784.x&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/2011_huber-et-al_role-prior-model-calibration_EnKF.pdf&quot;&gt;
-		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Role of Prior Model Calibration on Predictions with Ensemble Kalman Filter&quot; width=30 height=32&gt;
-	&lt;/a&gt;&lt;/span&gt;
-	&lt;/p&gt;
-&lt;/div&gt;
 
-&lt;h1&gt;Presentations (oral &amp;amp; poster)&lt;/h1&gt;
+&lt;h2&gt;Presentations (oral &amp;amp; poster)&lt;/h2&gt;
 
 &lt;div class=&quot;pub&quot;&gt;
 	 &lt;h2&gt;Poster: RGPR - An open-source package to process and visualize GPR data&lt;/h2&gt;
@@ -376,7 +447,7 @@ June 18–21, 2018 in Rapperswil, Switzerland&lt;/p&gt;
   &lt;p class=&quot;journal&quot;&gt;Conference proceeding: 17&lt;sup&gt;th&lt;/sup&gt; International Conference on Ground Penetrating Radar,
 June 18–21, 2018 in Rapperswil, Switzerland&lt;/p&gt;
   &lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;        http://dx.doi.org/10.13140/RG.2.2.20006.42561&quot;&gt;10.13140/RG.2.2.20006.42561&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/poster_2018_huber-and-hans_RGPR-new-open-source-package.pdf&quot;&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;poster_2018_huber-and-hans_RGPR-new-open-source-package.pdf&quot;&gt;
 		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF 'Poster: RGPR - An open-source package to process and visualize GPR data'&quot; width=30 height=32&gt;
 	&lt;/a&gt;&lt;/span&gt;
 	&lt;/p&gt;
@@ -388,7 +459,7 @@ June 18–21, 2018 in Rapperswil, Switzerland&lt;/p&gt;
 	&lt;p class=&quot;journal&quot;&gt;17&lt;sup&gt;th&lt;/sup&gt;  International Conference on Ground Penetrating Radar,
 June 18–21, 2018 in Rapperswil, Switzerland&lt;/p&gt;
   &lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;        http://dx.doi.org/10.13140/RG.2.2.24600.49920&quot;&gt;10.13140/RG.2.2.24600.49920&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/talk_2018_huber-et-al_GPR-scour-depth-alternate-bars_2018_06_21_new.pdf&quot;&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;talk_2018_huber-et-al_GPR-scour-depth-alternate-bars_2018_06_21_new.pdf&quot;&gt;
 		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF 'talk_2018_huber-et-al_GPR-scour-depth-alternate-bars_2018_06_21_new.pdf'&quot; width=30 height=32&gt;
 	&lt;/a&gt;&lt;/span&gt;
 	&lt;/p&gt;
@@ -399,7 +470,7 @@ June 18–21, 2018 in Rapperswil, Switzerland&lt;/p&gt;
 	&lt;p class=&quot;authors&quot;&gt; E. Huber, P. Huggenberger, J. Caers (2016)&lt;/p&gt;
 	&lt;p class=&quot;journal&quot;&gt;AGU 2016 Fall Meeting, San Francisco, California, USA, 12–16 December 2016&lt;/p&gt;
 	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.13140/RG.2.2.29333.32489&quot;&gt;10.13140/RG.2.2.29333.32489&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/talk_2016_huber-et-al_AGU_3D-object-based-model-braided-deposits.pdf&quot;&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;talk_2016_huber-et-al_AGU_3D-object-based-model-braided-deposits.pdf&quot;&gt;
 		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download 3D object-based model (marked point process) of coarse braided river deposits&quot; width=30 height=32&gt;
 	&lt;/a&gt;&lt;/span&gt;
 	&lt;/p&gt;
@@ -409,7 +480,7 @@ June 18–21, 2018 in Rapperswil, Switzerland&lt;/p&gt;
 	&lt;p class=&quot;authors&quot;&gt; E. Huber, P. Huggenberger, M. Andreas and E. Meier (2015)&lt;/p&gt;
 	&lt;p class=&quot;journal&quot;&gt;EGU General Assembly 2015, Vienna, Austria, 12–17 April 2015&lt;/p&gt;
 	&lt;p class=&quot;doi&quot;&gt;DOI:&amp;nbsp;&lt;a rel=&quot;external&quot; href=&quot;http://dx.doi.org/10.13140/RG.2.2.36042.06087&quot;&gt;10.13140/RG.2.2.36042.06087&lt;/a&gt;
-	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;publications/poster_2015_huber-et-al_Cyclic-deformations-in-Opalinus-clay.pdf&quot;&gt;
+	&lt;span class=&quot;pdf&quot;&gt;&lt;a href=&quot;poster_2015_huber-et-al_Cyclic-deformations-in-Opalinus-clay.pdf&quot;&gt;
 		&lt;img src=&quot;{{ site.baseurl }}/public/img/pdf_30x32.png&quot; alt=&quot;download PDF Poster: Cyclic deformations in the Opalinus
 clay: a laboratory experiment&quot; width=30 height=32&gt;
 	&lt;/a&gt;&lt;/span&gt;
@@ -436,9 +507,9 @@ clay: a laboratory experiment&quot; width=30 height=32&gt;
    <id>http://localhost:4000/2022/12/23/RGPR</id>
    <content type="html">&lt;p&gt;RGPR is a free and open-source software package for ground-penetrating radar (GPR) data processing, export/import, visualisation, etc.&lt;/p&gt;
 
-&lt;p&gt;RGPR is written in R, a high-level programming language for statistical computing and graphics that is freely available under the GNU General Public License and runs on Linux, Windows and MacOS. R is a highly versatile and extensible language to which C, C++ and Fortran code can be linked and run. Furthermore, the R developer community is very active and more than 10’000 packages are hosted on the official global package repository CRAN (Comprehensive R Archive Network, https://cran.r-project.org). In 2017, R was ranked as the sixth top programming language by the Institute of Electrical and Electronics Engineers. R is somehow similar to matlab or python (for an interesting comparison between R and python, check https://github.com/matloff/R-vs.-Python-for-Data-Science)&lt;/p&gt;
+&lt;p&gt;RGPR is written in R, a high-level programming language for statistical computing and graphics that is freely available under the GNU General Public License and runs on Linux, Windows and MacOS. R is a highly versatile and extensible language to which C, C++ and Fortran code can be linked and run. Furthermore, the R developer community is very active and more than 10’000 packages are hosted on the official global package repository CRAN (Comprehensive R Archive Network, &lt;a href=&quot;https://cran.r-project.org&quot;&gt;https://cran.r-project.org&lt;/a&gt;). In 2017, R was ranked as the sixth top programming language by the Institute of Electrical and Electronics Engineers. R is somehow similar to matlab or python (for an interesting comparison between R and python, check https://github.com/matloff/R-vs.-Python-for-Data-Science)&lt;/p&gt;
 
-&lt;p&gt;RGPR is hosted on GitHub at https://github.com/emanuelhuber/RGPR.&lt;/p&gt;
+&lt;p&gt;RGPR is hosted on GitHub at &lt;a href=&quot;https://github.com/emanuelhuber/RGPR&quot;&gt;https://github.com/emanuelhuber/RGPR&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Tutorials available on companion website&lt;/p&gt;
 
@@ -457,11 +528,9 @@ clay: a laboratory experiment&quot; width=30 height=32&gt;
 
 &lt;p&gt;How do streamlines behave in three-dimensional divergence-free flows? In three-dimensional, non-axisymetric flows the streamlines are &lt;strong&gt;permanently&lt;/strong&gt; rearranged by the redistribution of the fluid within the subsurface.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/test/assets/img_posts/2022-12-23-advective-mixing_fig02.png&quot; alt=&quot;stream tubes and control planes for 3-D flow past isolated inclusions&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img_posts/2022-12-23-advective-mixing_fig02.png&quot; alt=&quot;stream tubes and control planes for 3-D flow past isolated inclusions&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The intersections of stream tubes and control planes for 3-D flow past isolated inclusions: (top left) infinitely conductive sphere, (top right) prolate ellipsoid, (bottom left) oblate ellipsoid, and (bottom right) impermeable oblate ellipsoid (from Jankovi? et al., 2009).&lt;/p&gt;
-
-&lt;p&gt;The intersections of stream tubes and control planes for 3-D flow past isolated inclusions: (top left) infinitely conductive sphere, (top right) prolate ellipsoid, (bottom left) oblate ellipsoid, and (bottom right) impermeable oblate ellipsoid (from Jankovi? et al., 2009).&lt;/p&gt;
+&lt;p&gt;The intersections of stream tubes and control planes for 3-D flow past isolated inclusions: (top left) infinitely conductive sphere, (top right) prolate ellipsoid, (bottom left) oblate ellipsoid, and (bottom right) impermeable oblate ellipsoid (from &lt;a href=&quot;https://doi.org/10.1029/2009WR007741&quot;&gt;Jankovic et al., 2009&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;What kind of permanent rearrangement can happen?&lt;/p&gt;
 
@@ -473,7 +542,7 @@ clay: a laboratory experiment&quot; width=30 height=32&gt;
 
 &lt;p&gt;This is called advective mixing and it plays a non-negligible role in enhancing diffusion/dispersion. Modeling subsurface flow transport without accounting for three-dimensional flow and/or small scale heterogeneity will clearly underestimate the subsurface mixing processes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/test/assets/img_posts/2022-12-23-advective-mixing_fig01.png&quot; alt=&quot;stream tubes and control planes for 3-D flow past isolated inclusions&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img_posts/2022-12-23-advective-mixing_fig01.png&quot; alt=&quot;stream tubes and control planes for 3-D flow past isolated inclusions&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;For example, delineating a well capture zone based on a 2D groundwater flow model with particle tracking will result in a too narrow and unrealistic capture zone: in this capture zone a drop of water has a 100% chance to be extracted by the well and the capture zone extends up to the model boundary. In reality the capture chance is decreasing with increasing distance between the drop of water and the well: due to the 3D subsurface flow mixing a drop of water far away from the well has a low chance to reach the well.&lt;/p&gt;
 
@@ -481,16 +550,16 @@ clay: a laboratory experiment&quot; width=30 height=32&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Hemker, K., van den Berg, E., and Bakker, M.: Ground Water Whirls, Ground Water, 42, 234?242, https://doi.org/10.1111/j.1745-6584.2004.tb02670.x, 2004.&lt;/p&gt;
+    &lt;p&gt;Hemker, K., van den Berg, E., and Bakker, M.: Ground Water Whirls, Ground Water, 42, 234?242, &lt;a href=&quot;https://doi.org/10.1111/j.1745-6584.2004.tb02670.x&quot;&gt;DOI: 10.1111/j.1745-6584.2004.tb02670.x&lt;/a&gt;, 2004.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Huber, E. and Huggenberger, P.: Subsurface flow mixing in coarse, braided river deposits, Hydrol. Earth Syst. Sci., 20, 2035?2046, https://doi.org/10.5194/hess-20-2035-2016, 2016.&lt;/p&gt;
+    &lt;p&gt;Huber, E. and Huggenberger, P.: Subsurface flow mixing in coarse, braided river deposits, Hydrol. Earth Syst. Sci., 20, 2035?2046, &lt;a href=&quot;https://doi.org/10.5194/hess-20-2035-2016&quot;&gt;DOI: 10.5194/hess-20-2035-2016&lt;/a&gt;, 2016.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Jankovi?, I., Steward, D. R., Barnes, R. J., and Dagan, G.: Is transverse macrodispersivity in three-dimensional groundwater transport equal to zero? A counterexample, Water Resour. Res., 45, W08415, https://doi.org/10.1029/2009WR007741, 2009.&lt;/p&gt;
+    &lt;p&gt;Jankovic, I., Steward, D. R., Barnes, R. J., and Dagan, G.: Is transverse macrodispersivity in three-dimensional groundwater transport equal to zero? A counterexample, Water Resour. Res., 45, W08415, &lt;a href=&quot;https://doi.org/10.1029/2009WR007741&quot;&gt;DOI: 10.1029/2009WR007741&lt;/a&gt;, 2009.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Steward, D. R.: Stream surfaces in two-dimensional and three-dimensional divergence-free flows, Water Resour. Res., 34, 1345?1350, https://doi.org/10.1029/98WR00215, 1998.&lt;/p&gt;
+    &lt;p&gt;Steward, D. R.: Stream surfaces in two-dimensional and three-dimensional divergence-free flows, Water Resour. Res., 34, 1345?1350, &lt;a href=&quot;https://doi.org/10.1029/98WR00215&quot;&gt;DOI: 10.1029/98WR00215&lt;/a&gt;, 1998.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
