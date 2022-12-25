@@ -24,5 +24,5 @@ Morphological perspective on the sedimentary characteristics of a coarse, braide
 - <em>Oral presentation:</em>E. Huber, P. Huggenberger, J. Caers (2016) A 3D object-based model to simulate highly-heterogeneous, coarse, braided river deposits. AGU 2016 Fall Meeting, San Francisco, California, USA, 12–16 December 2016. <a href="publications/talk_2016_huber-et-al_AGU_3D-object-based-model-braided-deposits.pdf"><img src="img/pdf_30x32.png" alt="download 3D object-based model (marked point process) of coarse braided river deposits" width="30" height="32"></a><br>DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.13140/RG.2.2.29333.32489">10.13140/RG.2.2.29333.32489</a>
 
 
-<p><img src="img/06_highAg_section_light.png" alt="CBRDM: vertical sections" width="500"></p>
-
+<p><img src="low_aggradation_rate.png" alt="Low aggradation rate" width="500"></p>
+<p><img src="high_aggradation_rate.png" alt="Low aggradation rate" width="500"></p>
