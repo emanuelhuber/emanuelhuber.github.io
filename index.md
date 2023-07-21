@@ -79,6 +79,14 @@ date: 2022-12-23
 				
 </div>
 
+<blockquote class="home">This is a story without end. All the world is still an
+America. The most promising words ever written on
+the maps of human knowledge are terra incognita –
+unknown territory.<br>
+Daniel Boorstin (1983) The Discoverers, Random House,
+745 pp. ISBN: 978-0-394-72625-0</blockquote>
+
+
 <blockquote class="home">Blind intelligence destroys sets and totalities, isolates
 all elements from their environment. It cannot conceive
 the inseparable link between observer and observed.
