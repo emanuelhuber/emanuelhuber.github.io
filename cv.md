@@ -1,12 +1,39 @@
 ---
 layout: page
 title: CV
-date: 2022-12-23
+date: 2024-07-01
 ---
 
-
 <div class="pub">
-	<h2>Postdoctoral fellow in Geosciences</h2>
+	<h2>Head of the Department of Hydrogeology and Geothermy</h2>
+	<p class="authors"><a href="https://www.geotest.ch/en">GEOTEST Ltd</a> (Switzerland)</p>
+	<p class="journal"> 2023-11 to present</p>
+	<p>&#8216;Modelling groundwater flow, solutes and heat transport, performing GIS analysis and spatial
+modelling, developing conceptual tools and approaches.&#8217; </p>
+</div>
+<div class="pub">
+	<h2>Hydrogeologist and modeler</h2>
+	<p class="authors"><a href="https://www.geotest.ch/en">GEOTEST Ltd</a> (Switzerland)</p>
+	<p class="journal"> 2021-11 to present</p>
+	<p>&#8216;Modelling groundwater flow, solutes and heat transport, performing GIS analysis and spatial
+modelling, developing conceptual tools and approaches.&#8217; </p>
+</div>
+<div class="pub">
+	<h2>Groundwater protection specialist</h2>
+	<p class="authors">Office for water and waste of the canton of Bern (Switzerland)</p>
+	<p class="journal"> 2019-04 to 2021-10</p>
+	<p>&#8216;Responsible for groundwater protection in the canton of Bern, managed groundwater
+prospection, advised municipalities and water supply companies&#8217; </p>
+</div>
+<div class="pub">
+	<h2>Water supply engineer</h2>
+	<p class="authors">Office for water and waste of the canton of Bern (Switzerland)</p>
+	<p class="journal"> 2017-04 to 2019-04</p>
+	<p>&#8216;Enforced public water supply, support and approved general water supply planing and
+initiated the regionalisation of the water supply&#8217; </p>
+</div>
+<div class="pub">
+	<h2>Postdoctoral research fellow in Geosciences</h2>
 	<p class="authors">Applied and Environmental Geology, University of Basel (Switzerland)</p>
 	<p class="journal"> 2017-06 to 2017-12</p>
 	<p>&#8216;Quantifying scour depth in a straightened gravel-bed
@@ -14,7 +41,7 @@ date: 2022-12-23
 	<p>Supervision by Prof. Dr. P. Huggenberger</p>
 </div>
 <div class="pub">
-	<h2>Postdoctoral fellow in Geological Sciences</h2>
+	<h2>Postdoctoral research fellow in Geological Sciences</h2>
 	<p class="authors">Department of Geological Sciences, Stanford University (USA)</p>
 	<p class="journal"> 2015-10 to 2017-03</p>
 	<p>&#8216;Uncertainty quantification in subsurface flow problems: development of a
