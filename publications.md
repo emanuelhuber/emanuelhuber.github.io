@@ -1,10 +1,33 @@
 ---
 layout: page
 title: Publications
-date: 2022-12-23
+date: 2025-10-01
 ---
 
+<div class="pub">
+	<h2>Groundwater heat utilization potential of the Swiss unconsolidated aquifers</h2>
+	<p class="authors">Emanuel Huber, Vincent Badoux, Pierre Christe</p>
+  <p class="journal">European Geothermal Congress</p>
+  <p class="doi">
+	<span class="pdf"><a href="2025_EGC_Groundwater-heat-potential-swiss-aquifers.pdf">
+		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF 'Groundwater heat utilization potential of the Swiss unconsolidated aquifers'" width=30 height=32>
+	</a></span>
+	</p>
+</div>
 
+
+<div class="pub">
+	<h2>Design of a hybrid deep coaxial heat-exchangers with hydrothermal component
+using numerical simulations and analytical solutions</h2>
+	<p class="authors">Vincent Badoux, Emanuel Huber, Carole Nawratil de Bono, François Martin, Pierre Perrochet</p>
+  <p class="journal">European Geothermal Congress</p>
+  <p class="doi">
+	<span class="pdf"><a href="2025_EGC_Design-hybrid-deep-coaxial-BHE-Thonex.pdf">
+		<img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF 'Design of a hybrid deep coaxial heat-exchangers with hydrothermal component
+using numerical simulations and analytical solutions'" width=30 height=32>
+	</a></span>
+	</p>
+</div>
 
 <div class="pub">
 	<h2>Ground penetrating radar (GPR) models of the regolith and water reservoir of an underground dam in the Brazilian semiarid region</h2>
