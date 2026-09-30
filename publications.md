@@ -6,17 +6,10 @@ date: 2026-09-30
 
 <div class="pub">
   <h2>Quantifying the permissible technical groundwater heat pump potential and its uncertainty through aquifer clustering and spatial packing</h2>
-  <p class="authors">
-    Emanuel Huber, Vincent Badoux, Volker Lützenkirchen (2025)
-  </p>
-  <p class="journal">
-    Grundwasser
-  </p>
-  <p class="doi">
-    DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1007/s00767-025-00609-9">
-       10.1007/s00767-025-00609-9</a>
-    <span class="pdf">
-      <a href="2025_huber-badoux-luetzenkirchen_GWHP_potential.pdf
+  <p class="authors">Emanuel Huber, Vincent Badoux, Volker Lützenkirchen (2025)</p>
+  <p class="journal">Grundwasser</p>
+  <p class="doi">DOI:&nbsp;<a rel="external" href="http://dx.doi.org/10.1007/s00767-025-00609-9">10.1007/s00767-025-00609-9</a>
+    <span class="pdf"><a href="2026_huber-et-al_quantifying-technical-groundwater-heat-pump-potential.pdf">
         <img src="{{ site.baseurl }}/public/img/pdf_30x32.png" alt="download PDF 'Quantifying the permissible technical groundwater heat pump potential and its uncertainty through aquifer clustering and spatial packing'" width=30 height=32>
       </a>
     </span>

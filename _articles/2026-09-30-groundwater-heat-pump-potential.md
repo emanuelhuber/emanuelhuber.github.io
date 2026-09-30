@@ -5,7 +5,6 @@ description: How do you estimate the groundwater heat pump potential of an entir
 picture: "2026-09-30-groundwater-heat-pump-potential_logo.png"
 ---
 
-# How do you estimate the groundwater heat pump potential of an entire aquifer without running thousands of expensive 3D simulations?
 
 How can we estimate how many groundwater heat pump systems can be installed in an entire aquifer while accounting for thermal interference between systems?
 
