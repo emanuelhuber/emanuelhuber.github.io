@@ -1,10 +1,29 @@
 ---
 layout: page
 title: Publications
-date: 2025-10-01
+date: 2026-09-30
 ---
 
-
+<div class="pub">
+  <h2>Quantifying the permissible technical groundwater heat pump potential and its uncertainty through aquifer clustering and spatial packing</h2>
+  <p class="authors">
+    Emanuel Huber, Vincent Badoux, Volker Lützenkirchen (2025)
+  </p>
+  <p class="journal">
+    Grundwasser
+  </p>
+  <p class="doi">
+    DOI:&nbsp;
+    http://dx.doi.org/10.1007/s00767-025-00609-9
+       10.1007/s00767-025-00609-9
+    </a>
+    <span class="pdf">
+      2025_huber-badoux-luetzenkirchen_GWHP_potential.pdf
+        {{ site.baseurl }}/public/img/pdf_30x32.png
+      </a>
+    </span>
+  </p>
+</div>
 
 <div class="pub">
 	<h2>Ground penetrating radar (GPR) models of the regolith and water reservoir of an underground dam in the Brazilian semiarid region</h2>
