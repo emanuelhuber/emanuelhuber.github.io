@@ -2,7 +2,7 @@
 layout: article
 title: From 3D groundwater simulations to regional groundwater heat pump potential
 description: How do you estimate the groundwater heat pump potential of an entire aquifer without running thousands of expensive 3D simulations? 
-picture: "2026-09-30-gwhp.png"
+picture: "2026-09-30-groundwater-heat-pump-potential_logo.png"
 ---
 
 # How do you estimate the groundwater heat pump potential of an entire aquifer without running thousands of expensive 3D simulations?
