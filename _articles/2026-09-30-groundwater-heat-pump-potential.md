@@ -1,8 +1,8 @@
 ---
 layout: article
 title: From 3D groundwater simulations to regional groundwater heat pump potential
-description: How do you estimate the groundwater heat pump potential of an entire aquifer without running thousands of expensive 3D simulations?
-picture: "2026-10-01-gwhp.png"
+description: How do you estimate the groundwater heat pump potential of an entire aquifer without running thousands of expensive 3D simulations? 
+picture: "2026-09-30-gwhp.png"
 ---
 
 # How do you estimate the groundwater heat pump potential of an entire aquifer without running thousands of expensive 3D simulations?
@@ -224,40 +224,3 @@ Huber, E., Badoux, V. & Lützenkirchen, V. (2026). *Quantifying the permissible 
 
 https://doi.org/10.1007/s00767-025-00609-9
 
----
-
-## Recommended figures for LinkedIn
-
-For a LinkedIn publication, I would **not use all figures**.
-
-### 1. Main / hero figure: Figure 5 — spatial packing
-
-This is the strongest visual representation of the originality of the approach. It shows the transition from individual simulated influence zones to regional potential.
-
-### 2. Supporting figure: Figure 3 — influence zones
-
-This explains the physical basis of the spatial packing and makes the hydrogeological variability visible.
-
-### 3. Context figure: Figure 1 — study area
-
-Useful if you want to show where the case study is located, but it is less important for communicating the methodological novelty.
-
-### 4. Optional results figure: Figure 4
-
-Useful if you want the article to emphasize the comparison between operating modes, influence-zone size and heat-recovery efficiency.
-
-### My recommended LinkedIn sequence
-
-**Cover:** Figure 5  
-→ short explanation of the problem
-
-**Figure 3:**  
-→ explain why influence zones differ
-
-**Figure 5 again or a cropped/high-resolution version:**  
-→ explain spatial packing
-
-**Figure 4:**  
-→ show the physical results
-
-I would avoid making Figure 1 the first image. It communicates the study site, but **Figure 5 communicates the idea**.
