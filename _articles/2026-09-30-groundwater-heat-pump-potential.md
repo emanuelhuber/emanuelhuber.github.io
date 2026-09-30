@@ -129,7 +129,7 @@ Several findings are particularly relevant:
 
 The simulations showed maximum temperature changes below 1.51 K at that distance, indicating that the tested 375 kW systems remained below the regulatory temperature-change limit.
 
-## What I consider the main contribution
+## The main contribution
 
 The main contribution is not a single potential value for one Swiss aquifer.
 
@@ -137,13 +137,7 @@ It is the **framework for scaling detailed 3D simulations to regional assessment
 
 A limited number of physically detailed simulations can be converted into reusable spatial representations of their influence. These representations can then be combined with a spatial packing algorithm to explore regional installation potential.
 
-This provides a bridge between:
-
-**local, detailed numerical modelling**
-
-and
-
-**regional geothermal planning.**
+This provides a bridge between **local, detailed numerical modelling** and  **regional geothermal planning.**
 
 ## The influence zones
 
@@ -153,35 +147,27 @@ One of the most informative results is the variation of the influence zones betw
 
 *Figure 3 from the paper: influence zones for the different hydrogeological clusters and energy-load profiles.*
 
-The figure illustrates why a simple rule such as “one installation per X square metres” is not sufficient.
-
-The spatial footprint of a GWHP system depends on the groundwater flow regime, aquifer properties and operating conditions.
+The figure illustrates why a simple rule such as “one installation per X square metres” is not sufficient. The spatial footprint of a GWHP system depends on the groundwater flow regime, aquifer properties and operating conditions.
 
 ## From influence zones to regional potential
 
 The next step is to place these influence zones across the aquifer while preventing overlap.
 
-![Spatial packing](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00767-025-00609-9/MediaObjects/767_2025_609_Fig5_HTML.png)
+![Spatial packing](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00767-025-00609-9/MediaObjects/767_2025_609_Fig6_HTML.png)
 
 *Figure 5 from the paper: example of the spatial packing of GWHP influence zones.*
 
-This is where the approach changes from a conventional numerical-modelling problem into a spatial-planning problem.
-
-The numerical model provides the physically meaningful building blocks.
-
-The packing algorithm determines how many of these building blocks can coexist.
+This is where the approach changes from a conventional numerical-modelling problem into a spatial-planning problem. The numerical model provides the physically meaningful building blocks. The packing algorithm determines how many of these building blocks can coexist.
 
 ## How different operating conditions affect the result
 
 The simulations also show how influence-zone length and heat-recovery efficiency vary with hydrogeological cluster, energy-load profile and operating mode.
 
-![Influence-zone length and heat recovery](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00767-025-00609-9/MediaObjects/767_2025_609_Fig4_HTML.png)
+![Influence-zone length and heat recovery](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00767-025-00609-9/MediaObjects/767_2025_609_Fig5_HTML.png)
 
 *Figure 4 from the paper: influence-zone length and heat-recovery efficiency for the investigated clusters and operating conditions.*
 
-For the investigated configurations, recirculative systems generally showed lower heat-recovery efficiencies, while bidirectional systems benefited more from the thermal memory of the aquifer.
-
-The exact behaviour depends on the hydrogeological setting and operating conditions.
+For the investigated configurations, recirculative systems generally showed lower heat-recovery efficiencies, while bidirectional systems benefited more from the thermal memory of the aquifer. The exact behaviour depends on the hydrogeological setting and operating conditions.
 
 ## Why could this approach be useful beyond this case study?
 
@@ -219,7 +205,5 @@ These questions could help move from a case-study methodology towards a more gen
 
 ## Reference
 
-Huber, E., Badoux, V. & Lützenkirchen, V. (2026). *Quantifying the permissible technical groundwater heat pump potential and its uncertainty through aquifer clustering and spatial packing*. **Grundwasser**, 31, 33–46.
-
-https://doi.org/10.1007/s00767-025-00609-9
+[Huber, E., Badoux, V. & Lützenkirchen, V. (2026). *Quantifying the permissible technical groundwater heat pump potential and its uncertainty through aquifer clustering and spatial packing*. **Grundwasser**, 31, 33–46.](https://doi.org/10.1007/s00767-025-00609-9)
 
