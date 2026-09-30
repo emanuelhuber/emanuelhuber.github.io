@@ -1,11 +1,11 @@
 ---
-title: "From 3D groundwater simulations to regional groundwater heat pump potential"
-author: "Emanuel Huber"
-date: "2026"
-description: "LinkedIn article based on Huber, Badoux & Lützenkirchen (2026)"
+layout: article
+title: From 3D groundwater simulations to regional groundwater heat pump potential
+description: How do you estimate the groundwater heat pump potential of an entire aquifer without running thousands of expensive 3D simulations?
+picture: "2026-10-01-gwhp.png"
 ---
 
-# From 3D groundwater simulations to regional groundwater heat pump potential
+# How do you estimate the groundwater heat pump potential of an entire aquifer without running thousands of expensive 3D simulations?
 
 How can we estimate how many groundwater heat pump systems can be installed in an entire aquifer while accounting for thermal interference between systems?
 
